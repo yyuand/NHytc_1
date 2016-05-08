@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include
+        android:id="@+id/title_shuoshuo_pubish"
+        layout="@layout/title_bar"/>
+
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/title_shuoshuo_pubish"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rl_choose_topic"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:gravity="center_vertical"
+                android:background="@drawable/editshape"
+                android:layout_margin="5dip"
+                >
+                <TextView
+                    android:id="@+id/tv_shuo_topic_publish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/topic_choose"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dip"
+                    android:src="@drawable/iconfontright"
+                    />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/ivory_background"
+                android:layout_margin="3dip"
+                />
+            <EditText
+                android:id="@+id/et_shuocontent"
+                android:background="@drawable/shape"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lines="6"
+                android:gravity="start"
+                android:hint="@string/shuoshuohint"
+                android:layout_margin="5dip"
+                />
+        </LinearLayout>
+
+
+    <com.ab.view.sample.AbOuterScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_content"
+        android:layout_margin="5dip"
+        >
+                    <com.hytc.nhytc.view.MyGirdView
+                        android:id="@+id/gl_shuoshuo_publish"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dip"
+                        android:layout_margin="6dp"
+                        android:numColumns="3"
+                        android:verticalSpacing="5dp" />
+    </com.ab.view.sample.AbOuterScrollView>
+
+
+</RelativeLayout>

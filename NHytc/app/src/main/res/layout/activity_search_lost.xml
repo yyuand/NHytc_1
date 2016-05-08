@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dip"
+        android:background="@drawable/titleshape"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/kindshape"
+            android:layout_toLeftOf="@+id/tv_lost_quxiao"
+            android:layout_marginTop="4dip"
+            android:layout_marginBottom="4dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+            <ImageView
+                android:id="@+id/iv_to_search"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/search"
+                android:layout_marginLeft="10dip"
+                />
+
+            <EditText
+                android:id="@+id/et_search_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="索搜"
+                android:textColorHint="@color/white"
+                android:background="@null"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="3dip"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/tv_lost_quxiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.ab.view.pullview.AbPullToRefreshView
+            android:id="@+id/abpull_lost_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/lv_lost_search"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="none"
+                >
+
+            </ListView>
+        </com.ab.view.pullview.AbPullToRefreshView>
+        <include layout="@layout/nothing" />
+        <ProgressBar
+            android:id="@+id/pgb_lost_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+
+</LinearLayout>

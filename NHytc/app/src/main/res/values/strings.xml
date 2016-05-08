@@ -1,0 +1,297 @@
+<resources>
+    <string name="app_name">掌上淮师</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+
+    <string name="main_home">首页</string>
+    <string name="main_shuo">淮说</string>
+    <string name="main_infomation">消息</string>
+    <string name="main_sunscribe">订阅</string>
+    <string name="main_activity">活动</string>
+    <string name="more">更多</string>
+    <string name="main_my">我的</string>
+    <string name="showlove_hint">大胆地说出心里话吧，她(他)正在看着哦~~，字数不超过500字哦...</string>
+    <string name="publish">发表</string>
+    <string name="text_ensure">确认</string>
+    <string name="shuoshuohint">淮说内容</string>
+    <string name="topic_choose">#话题（可不选）</string>
+    <string name="feedback">亲，APP用的不爽的地方，就尽管跟我说吧！</string>
+    <string name="de_save">"保存"</string>
+
+
+    <string name="folder_all">所有图片</string>
+    <string name="preview">预览</string>
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="msg_amount_limit">已经达到最高选择数量</string>
+    <string name="tip_take_photo">相机</string>
+    <string name="action_done">完成</string>
+    <string name="sgl_content">成立时间：2015年10月22日\n\n团队规模：10人\n 安卓端：2人\n IOS端：2人\n 网页端：2人\n 设计师：2人\n 业务员：2人\n\n团队运营：掌上淮师手机APP开发工作的推进，团队内部核心项目开发的推进\n\n真心感谢各位亲对我们掌上淮师的支持，我们定会继续努力，在下一个版本中将掌上淮师做的更好！\n\n如果您有什么好的想法或建议请直接联系我们\n\n电话：15505100296\n邮箱：970160592@qq.com</string>
+    <string-array name="icon_home">
+        <item>大家说</item>
+        <item>表白墙</item>
+        <item>失物招领</item>
+        <item>跳蚤市场</item>
+        <!--<item>课程表</item>
+        <item>一卡通</item>
+        <item>成绩查询</item>
+        <item>图书馆</item>-->
+        <item>部门电话</item>
+        <item>开发者介绍</item>
+    </string-array>
+
+    <string-array name="week">
+        <item>第1周</item>
+        <item>第2周</item>
+        <item>第3周</item>
+        <item>第4周</item>
+        <item>第5周</item>
+        <item>第6周</item>
+        <item>第7周</item>
+        <item>第8周</item>
+        <item>第9周</item>
+        <item>第10周</item>
+        <item>第11周</item>
+        <item>第12周</item>
+        <item>第13周</item>
+        <item>第14周</item>
+        <item>第15周</item>
+        <item>第16周</item>
+        <item>第17周</item>
+        <item>第18周</item>
+        <item>第19周</item>
+        <item>第20周</item>
+        <item>第21周</item>
+        <item>第22周</item>
+        <item>第23周</item>
+        <item>第24周</item>
+        <item>第25周</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="say_topic">
+        <item>无话题</item>
+        <item>表情帝</item>
+        <item>考研考证</item>
+        <item>约约约</item>
+        <item>敢不敢再嗅点</item>
+        <item>逗比搞笑</item>
+        <item>我要吐槽</item>
+    </string-array>
+
+    <string-array name="lost_topic">
+        <item>饭卡</item>
+        <item>课本书籍</item>
+        <item>数码电子</item>
+        <item>鞋包服饰</item>
+        <item>其它</item>
+    </string-array>
+
+    <string-array name="lost_function">
+        <item>失物招领</item>
+        <item>寻物启事</item>
+    </string-array>
+
+    <string-array name="market_topic">
+        <item>数码电子</item>
+        <item>交通工具</item>
+        <item>彩妆护肤</item>
+        <item>鞋包服饰</item>
+        <item>日用百货</item>
+        <item>书籍旧刊</item>
+        <item>其它</item>
+    </string-array>
+
+
+    <string-array name="market_item">
+        <item>全部</item>
+        <item>数码电子</item>
+        <item>交通工具</item>
+        <item>彩妆护肤</item>
+        <item>鞋包服饰</item>
+        <item>日用百货</item>
+        <item>书籍旧刊</item>
+        <item>其它</item>
+    </string-array>
+
+    <string-array name="yuan_xi">
+        <item >城市与环境学院</item>
+        <item >传媒学院</item>
+        <item >法学院</item>
+        <item >化学化工学院</item>
+        <item >教育科学学院</item>
+        <item >计算机科学与技术学院</item>
+        <item >经济与管理学院</item>
+        <item >历史文化旅游学院</item>
+        <item >美术学院</item>
+        <item >数学科学学院</item>
+        <item >生命科学学院</item>
+        <item >体育学院</item>
+        <item >文通学院</item>
+        <item >文学院</item>
+        <item >外国语学院</item>
+        <item >物理与电子电气工程学院</item>
+        <item >音乐学院</item>
+        <item >政治与公共管理学院</item>
+    </string-array>
+
+    <string-array name="departments">
+        <item>保卫处</item>
+        <item>教务处</item>
+        <item>医务室</item>
+        <item>心理咨询室</item>
+        <item>学生工作部</item>
+        <item>财务处</item>
+        <item>校党委宣传部</item>
+        <item>团委</item>
+        <item>招生与就业处</item>
+    </string-array>
+
+    <string-array name="department1">
+        <item>处长室</item>
+        <item>办公室</item>
+        <item>户籍科</item>
+        <item>政保科、治安科</item>
+        <item>110值班室</item>
+        <item>王营校区南门卫</item>
+        <item>王营校区东门卫</item>
+        <item>王营校区西门卫</item>
+        <item>交通路校区南门卫</item>
+        <item>交通路校区西门卫</item>
+    </string-array>
+    <string-array name="phone1">
+        <item>83525118</item>
+        <item>83525082</item>
+        <item>83525115</item>
+        <item>83525065</item>
+        <item>83526110</item>
+        <item>83525023</item>
+        <item>83525260</item>
+        <item>83525017</item>
+        <item>83511224</item>
+        <item>83511214</item>
+    </string-array>
+
+    <string-array name="department2">
+        <item>处长室</item>
+        <item>办公室</item>
+        <item>教学行政科</item>
+        <item>学籍管理科</item>
+        <item>教学质量监控科</item>
+        <item>考试中心</item>
+    </string-array>
+    <string-array name="phone2">
+        <item>83525196</item>
+        <item>83526118</item>
+        <item>83525203</item>
+        <item>83525202</item>
+        <item>83525070</item>
+        <item>83525177</item>
+    </string-array>
+
+    <string-array name="department3">
+        <item>卫生科科长室</item>
+        <item>王营校区门诊（医疗急救）</item>
+        <item>交通路校区门诊（医疗急救）</item>
+    </string-array>
+    <string-array name="phone3">
+        <item>83525060</item>
+        <item>83525066</item>
+        <item>83511061</item>
+    </string-array>
+
+    <string-array name="department4">
+        <item>心理咨询中心主任室</item>
+        <item>心理咨询中心副主任室</item>
+        <item>心理咨询办公室</item>
+        <item>心理咨询热线</item>
+    </string-array>
+    <string-array name="phone4">
+        <item>83525609</item>
+        <item>83526050</item>
+        <item>83526065</item>
+        <item>83526051</item>
+    </string-array>
+
+    <string-array name="department5">
+        <item>办公室</item>
+        <item>学生教育管理科</item>
+        <item>学生资助管理中心</item>
+        <item>学生公寓管理中心</item>
+    </string-array>
+    <string-array name="phone5">
+        <item>83526070</item>
+        <item>83526062</item>
+        <item>83526061</item>
+        <item>83526777</item>
+    </string-array>
+
+    <string-array name="department6">
+        <item>处长室</item>
+        <item>副处长室</item>
+        <item>交通路校区综合办公室</item>
+    </string-array>
+    <string-array name="phone6">
+        <item>83525099</item>
+        <item>83525061</item>
+        <item>83517229</item>
+    </string-array>
+
+    <string-array name="department7">
+        <item>部长室</item>
+        <item>副部长室</item>
+        <item>党校办、理论科</item>
+        <item>宣教科、网络新闻科</item>
+        <item>校报编辑部、外宣科</item>
+    </string-array>
+    <string-array name="phone7">
+        <item>83526980</item>
+        <item>83525055</item>
+        <item>83525050</item>
+        <item>83525819</item>
+        <item>83525057</item>
+    </string-array>
+
+
+    <string-array name="department8">
+        <item>书记室</item>
+        <item>副书记室</item>
+        <item>办公室</item>
+    </string-array>
+    <string-array name="phone8">
+        <item>83526068</item>
+        <item>83526069</item>
+        <item>83526067</item>
+    </string-array>
+
+    <string-array name="department9">
+        <item>处长室</item>
+        <item>副处长室</item>
+        <item>招生办主任室</item>
+        <item>招生办公室</item>
+        <item>就业指导中心</item>
+        <item>创业指导中心</item>
+        <item>办公室、学生档案室</item>
+    </string-array>
+    <string-array name="phone9">
+        <item>83525111</item>
+        <item>83526888</item>
+        <item>83526999</item>
+        <item>83526555</item>
+        <item>83525999</item>
+        <item>83526889</item>
+        <item>83525818</item>
+    </string-array>
+</resources>

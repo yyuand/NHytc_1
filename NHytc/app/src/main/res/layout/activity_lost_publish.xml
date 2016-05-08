@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include
+        android:id="@+id/title_lost_publish"
+        layout="@layout/title_bar"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_lost_publish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_lost_publish"
+        >
+
+        <com.ab.view.sample.AbOuterScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rl_choose_function_lost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@drawable/editshape"
+                android:layout_marginTop="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                >
+                <TextView
+                    android:id="@+id/tv_lost_publish_function"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="功能选择"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dip"
+                    android:src="@drawable/iconfontright"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_choose_topic_lost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@drawable/editshape"
+                android:layout_margin="10dip"
+                >
+                <TextView
+                    android:id="@+id/tv_lost_publish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="类型选择"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dip"
+                    android:src="@drawable/iconfontright"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@drawable/editshape"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <EditText
+                        android:id="@+id/et_lost_name_lost_publish"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:lines="1"
+                        android:maxLength="12"
+                        android:hint="失物名称"
+                        android:background="@null"
+                        android:layout_margin="5dip"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="@color/main_no"
+                        />
+
+                    <EditText
+                        android:id="@+id/et_lost_location_lost_publish"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:lines="1"
+                        android:maxLength="12"
+                        android:hint="大致地点"
+                        android:background="@null"
+                        android:layout_margin="5dip"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dip"
+                        android:background="@color/main_no"
+                        />
+
+                    <EditText
+                        android:id="@+id/et_lost_time_lost_publish"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:lines="1"
+                        android:maxLength="12"
+                        android:hint="大致时间"
+                        android:background="@null"
+                        android:layout_margin="5dip"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editshape"
+                android:layout_margin="10dip"
+                >
+
+                <EditText
+                    android:id="@+id/et_content_lost_publish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请描述一下失物的大概特征"
+                    android:maxLength="300"
+                    android:background="@null"
+                    android:lines="6"
+                    android:gravity="start"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginLeft="5dip"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <com.hytc.nhytc.view.MyGirdView
+                android:id="@+id/gl_lost_pic_publish"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:layout_marginLeft="10dip"
+                android:numColumns="3"
+                android:verticalSpacing="5dp" />
+
+
+
+
+        </LinearLayout>
+
+
+        </com.ab.view.sample.AbOuterScrollView>
+
+    </LinearLayout>
+
+    <!--<com.ab.view.sample.AbOuterScrollView
+        android:id="@+id/scrollView_lost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_lost_publish"
+        android:layout_below="@id/gv_lost_publish">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="2dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            >
+                <com.hytc.nhytc.view.MyGirdView
+                    android:id="@+id/gl_lost_pic_publish"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dip"
+                    android:layout_margin="6dp"
+                    android:numColumns="3"
+                    android:verticalSpacing="5dp" />
+
+        </LinearLayout>
+    </com.ab.view.sample.AbOuterScrollView>-->
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/title_bar"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_set_photos"
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:layout_margin="15dip"
+        android:background="@drawable/editshape"
+        >
+        <ImageView
+            android:id="@+id/imgPic_set_photos"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/cam_photo"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传图片"
+            android:layout_below="@+id/imgPic_set_photos"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:background="@drawable/editshape"
+        >
+
+        <TextView
+            android:id="@+id/tv_my_photos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主人比较害羞，还没有上传照片呢"
+            android:layout_centerInParent="true"
+            android:textColor="@color/blue_gray"
+            android:textSize="16sp"
+            android:visibility="gone"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.hytc.nhytc.view.MyGirdView
+                android:id="@+id/gl_activity_set_photos"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="3"
+                android:stretchMode="columnWidth"
+                android:layout_margin="6dip"
+                >
+            </com.hytc.nhytc.view.MyGirdView>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

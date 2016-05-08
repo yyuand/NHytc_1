@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/rl_sub_detail"
+        android:layout_width="match_parent"
+        android:layout_height="100dip">
+
+        <LinearLayout
+            android:id="@+id/ll_subscribe_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:orientation="vertical"
+            android:layout_toLeftOf="@+id/iv_sub_detail"
+            >
+
+            <TextView
+                android:id="@+id/tv_sub_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="春节假期延长到9天？支持！"
+                />
+            <TextView
+                android:id="@+id/tv_sub_detail_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_marginTop="5dip"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="到9天？支持！春到9天？支持！春到9天？支持！春到9天？支持！春春节假期延长到9天？支持！春节假期延长到9天？支持！春节假期延长到9天？支持！"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_sub_detail"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:src="@drawable/iconfont4"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginRight="5dip"
+            />
+
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/ivory_background"
+        />
+
+</LinearLayout>

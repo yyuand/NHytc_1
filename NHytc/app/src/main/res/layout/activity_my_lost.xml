@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <include layout="@layout/title_bar"/>
+            <com.ab.view.pullview.AbPullToRefreshView
+                android:id="@+id/abpull_lost_my"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+            <ListView
+                android:id="@+id/lv_my_lost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                >
+            </ListView>
+            </com.ab.view.pullview.AbPullToRefreshView>
+
+        </LinearLayout>
+        <include layout="@layout/nothing"/>
+        <ProgressBar
+            android:id="@+id/wait_pro_my_lost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+
+</LinearLayout>

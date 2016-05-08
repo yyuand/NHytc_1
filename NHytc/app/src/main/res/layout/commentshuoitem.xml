@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            >
+            <com.hytc.nhytc.view.CircleImageView
+                android:id="@+id/comment_shuo_head"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/head"
+                android:layout_marginLeft="10dip"
+                android:layout_gravity="center_vertical"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tv_commentname_shuo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="孙其用"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dip"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_commenttime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="今天12:10"
+                    android:layout_alignParentBottom="true"
+                    android:textSize="9sp"
+                    android:layout_marginLeft="5dip"
+                    android:singleLine="true"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_comtent_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tv_comtented_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="20dip"
+        android:ellipsize="end"
+        android:maxLines="3"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="3dip"
+        android:layout_marginBottom="3dip"
+        android:background="@color/ivory_background"
+        />
+
+</LinearLayout>

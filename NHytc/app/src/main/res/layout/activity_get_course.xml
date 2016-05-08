@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <include layout="@layout/title_bar"/>
+
+
+    <ImageView
+        android:layout_marginTop="15dip"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:src="@mipmap/logobg"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:background="@color/darkgray"
+        android:layout_marginTop="30dip"
+        />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dip"
+    android:gravity="center_vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="学    号"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dip"
+        />
+
+    <EditText
+        android:id="@+id/et_stu_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的学号"
+        android:background="@null"
+        android:layout_marginLeft="12dip"
+        android:inputType="number"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_marginRight="20dip"
+        />
+
+</LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:background="@color/darkgray"
+        android:layout_marginTop="10dip"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dip"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="密    码"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dip"
+            />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入您的密码"
+            android:background="@null"
+            android:layout_marginLeft="12dip"
+            android:singleLine="true"
+            android:lines="1"
+            android:layout_marginRight="20dip"
+            android:password="true"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:background="@color/darkgray"
+        android:layout_marginTop="10dip"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        >
+
+        <CheckBox
+            android:id="@+id/chb_remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="记住，下次不用输入"
+            android:layout_marginRight="20dip"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

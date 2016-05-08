@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dip"
+    android:layout_marginTop="6dip"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toLeftOf="@+id/tvtopic__shuo_detail"
+        android:layout_centerVertical="true"
+        >
+        <com.hytc.nhytc.view.CircleImageView
+            android:id="@+id/iv_shuo_head_detail"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/head"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="center_vertical"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_username_shuo_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dip"
+                />
+            <TextView
+                android:id="@+id/tv_time_shuo_shuo_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:textSize="9sp"
+                android:layout_marginLeft="5dip"
+                android:singleLine="true"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvtopic__shuo_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:textSize="15sp"
+        android:layout_marginRight="10dip"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/main_yes"
+        android:layout_centerVertical="true"
+        />
+</RelativeLayout>
+    <TextView
+        android:id="@+id/tv_content_shuo_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:ellipsize="end"
+        />
+
+    <com.hytc.nhytc.view.MyGirdView
+        android:id="@+id/gl_picture_shuoshuo_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:layout_marginLeft="10dip"
+        >
+    </com.hytc.nhytc.view.MyGirdView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_margin="7dp"
+        android:background="@color/ivory_background"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_approve_shuo_detail"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/iv_shuoshuo1"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:src="@mipmap/iconfont1"
+                />
+            <TextView
+                android:id="@+id/tv_approve_count_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_toRightOf="@+id/iv_shuoshuo1"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_comment_shuo_detail"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/iv_shuoshuo2"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:src="@mipmap/iconfont2"
+                />
+            <TextView
+                android:id="@+id/comment_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_toRightOf="@+id/iv_shuoshuo2"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tl_to_chat"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/iv_shuoshuo3"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:src="@mipmap/iconfont3"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dip"
+        android:background="@color/ivory_background"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部评论"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="10dip"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/ivory_background"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="5dip"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

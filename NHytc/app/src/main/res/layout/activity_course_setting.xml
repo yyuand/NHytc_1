@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/title_bar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dip"
+        android:background="@color/gray"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="当前周"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            />
+
+        <Spinner
+            android:id="@+id/sp_week_setting"
+            android:layout_width="80dip"
+            android:layout_height="35dip"
+            android:entries="@array/week"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dip"
+        android:background="@color/gray"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dip"
+        android:background="@color/ivory_background"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dip"
+        android:background="@color/gray"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_get_course"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="重新获取课表"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            />
+
+        <ImageView
+            android:layout_width="27dip"
+            android:layout_height="27dip"
+            android:src="@drawable/iconfontright"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dip"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dip"
+        android:background="@color/gray"
+        />
+
+</LinearLayout>

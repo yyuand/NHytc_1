@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/ll_shuoshuo_my_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_marginTop="6dip"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_toLeftOf="@+id/tv_title_shuoshuo_item"
+                    android:layout_centerVertical="true"
+                    >
+                    <com.hytc.nhytc.view.CircleImageView
+                        android:id="@+id/iv_shuo_head"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/head"
+                        android:layout_marginLeft="10dip"
+                        android:layout_gravity="center_vertical"
+                        />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/tv_username"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="孙其用"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="5dip"
+                            />
+                        <TextView
+                            android:id="@+id/tv_time_shuo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="今天12:10"
+                            android:layout_alignParentBottom="true"
+                            android:textSize="9sp"
+                            android:layout_marginLeft="5dip"
+                            android:singleLine="true"
+                            />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_title_shuoshuo_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:text="爱情港湾"
+                    android:textSize="15sp"
+                    android:layout_marginRight="10dip"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/main_yes"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/tv_content_shuoshuo_my_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="爱情港湾爱情港湾爱情港湾爱情港湾爱情港湾爱情港湾"
+                android:ellipsize="end"
+                />
+
+            <com.hytc.nhytc.view.MyGirdView
+                android:id="@+id/gl_picture_shuoshuo_my_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="3"
+                android:stretchMode="columnWidth"
+                >
+            </com.hytc.nhytc.view.MyGirdView>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_margin="10dp"
+            android:background="@color/ivory_background"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:orientation="horizontal"
+            >
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/iv_shuoshuo_my1"
+                    android:layout_width="25dip"
+                    android:layout_height="25dip"
+                    android:src="@mipmap/iconfont1"
+                    />
+                <TextView
+                    android:id="@+id/tv_shuoshuo_my1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_toRightOf="@+id/iv_shuoshuo_my1"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_my_shuo"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/iv_shuoshuo_my2"
+                    android:layout_width="25dip"
+                    android:layout_height="25dip"
+                    android:src="@mipmap/iconfont2"
+                    />
+                <TextView
+                    android:id="@+id/tv_shuoshuo_my2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_toRightOf="@+id/iv_shuoshuo_my2"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_delete_my_shuo"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/iv_shuoshuo_my3"
+                    android:layout_width="25dip"
+                    android:layout_height="25dip"
+                    android:src="@mipmap/icondelete"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dip"
+            android:background="@color/ivory_background"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+

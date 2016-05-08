@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <corners
+        android:radius="9dp"
+        android:topLeftRadius="15dp"
+        android:topRightRadius="15dp"
+        android:bottomLeftRadius="15dp"
+        android:bottomRightRadius="15dp"
+
+        /><!-- 设置圆角半径 -->
+    <size
+        android:width="250dip"
+        android:height="40dp"/><!-- 宽度和高度 -->
+    <stroke
+        android:color="@color/blue"
+        android:width="0dp"
+        android:dashGap="0dp"/>
+    <solid android:color="@color/select"/>
+
+
+</shape>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dip"
+        android:background="@drawable/titleshape"
+        >
+
+        <ImageView
+            android:id="@+id/iv_back_titlebar"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/iconfontback"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dip"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            >
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_lost_shiwu"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/kindshape"
+                >
+                <TextView
+                    android:id="@+id/tv_lost_shiwu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="失物招领"
+                    android:layout_centerInParent="true"
+                    android:textSize="13dip"
+                    android:textColor="@color/blue_dark"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_lost_xunwu"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:id="@+id/tv_lost_xunwu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="寻物启事"
+                    android:layout_centerInParent="true"
+                    android:textSize="10dip"
+                    android:textColor="@color/blue_dark"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_search_titlebar"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/search"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="7dip"
+            />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_lost_title"
+        android:layout_width="match_parent"
+        android:layout_height="32dip"
+        android:orientation="horizontal"
+        android:layout_margin="2dip"
+        android:background="@color/white"
+        >
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/ll_lost1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dip"
+                android:background="@drawable/kindshape"
+                >
+            <TextView
+                android:id="@+id/tv_lost11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="饭卡"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/ll_lost2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dip"
+                >
+            <TextView
+                android:id="@+id/tv_lost22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="课本书籍"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/ll_lost3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dip"
+                >
+            <TextView
+                android:id="@+id/tv_lost33"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="数码电子"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/ll_lost4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dip"
+                >
+            <TextView
+                android:id="@+id/tv_lost44"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="鞋包服饰"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/ll_lost5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dip"
+                >
+            <TextView
+                android:id="@+id/tv_lost55"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="其它"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <android.support.v4.view.ViewPager
+            android:id = "@+id/view_pager_activity_lost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:flipInterval = "30"
+            android:persistentDrawingCache="animation"
+            />
+        <android.support.v4.view.ViewPager
+            android:id = "@+id/view_pager_activity_lost_function"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:flipInterval = "30"
+            android:persistentDrawingCache="animation"
+            android:visibility="invisible"
+            />
+    </FrameLayout>
+
+</LinearLayout>

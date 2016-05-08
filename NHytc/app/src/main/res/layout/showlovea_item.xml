@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/white"
+    >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@color/white"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rl_showlove1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                >
+
+                <TextView
+                    android:id="@+id/tv_show_love_person"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="表白人"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dip"
+                    android:textColor="@color/red"
+                    android:layout_toLeftOf="@+id/iv_love_icon"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_love_icon"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:src="@mipmap/love"
+                    android:layout_centerInParent="true"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_loved_person"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="被表白人"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dip"
+                    android:gravity="right"
+                    android:layout_toRightOf="@+id/iv_love_icon"
+                    android:textColor="@color/red"
+                    android:maxLength="25"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_showlove2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:layout_width="12dip"
+                    android:layout_height="12dip"
+                    android:background="@mipmap/showlove"
+                    android:layout_marginLeft="5dip"
+                    />
+
+                <ImageView
+                    android:layout_width="12dip"
+                    android:layout_height="12dip"
+                    android:background="@mipmap/showlove"
+                    android:layout_marginRight="5dip"
+                    android:layout_alignParentRight="true"
+                    />
+
+                <TextView
+                    android:id="@+id/contant_all_love"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="基础基础基础基础基础基础基础基础基础基础基础基础基础"
+                    android:layout_marginTop="20dip"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="20dip"
+                    android:textColor="@color/black"
+                    android:ellipsize="end"
+                    android:maxLines="6"
+                    />
+
+                <ImageView
+                    android:layout_width="12dip"
+                    android:layout_height="12dip"
+                    android:background="@mipmap/showlove"
+                    android:layout_marginLeft="5dip"
+                    android:layout_below="@+id/contant_all_love"
+                    />
+
+
+
+                <ImageView
+                    android:layout_width="12dip"
+                    android:layout_height="12dip"
+                    android:background="@mipmap/showlove"
+                    android:layout_marginRight="5dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/contant_all_love"
+                    />
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/ivory_background"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="3dip"
+                />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dip"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/rl_approve_showlove"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:id="@+id/iv_show_love"
+                        android:layout_width="21dip"
+                        android:layout_height="21dip"
+                        android:src="@mipmap/iconfont1"
+                        />
+                    <TextView
+                        android:id="@+id/tv_show_love"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_toRightOf="@+id/iv_show_love"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_comment_showlove"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:id="@+id/iv_chart_love"
+                        android:layout_width="21dip"
+                        android:layout_height="21dip"
+                        android:src="@mipmap/iconfont2"
+                        />
+                    <TextView
+                        android:id="@+id/tv_approve_count_show_love"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_toRightOf="@+id/iv_chart_love"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_show_love_to_say"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:id="@+id/iv_help"
+                        android:layout_width="21dip"
+                        android:layout_height="21dip"
+                        android:src="@mipmap/iconfont3"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dip"
+                android:background="@color/ivory_background"
+                />
+        </LinearLayout>
+
+</LinearLayout>

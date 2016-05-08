@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择照片"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@color/blue"/>
+    <TextView
+        android:id="@+id/tvselectphoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="相册"
+        android:clickable="true"
+        android:background="@drawable/bg_layout_seletor"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/ivory_background"
+        />
+    <TextView
+        android:id="@+id/tvtakephoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/bg_layout_seletor"
+        android:text="拍照"/>
+
+</LinearLayout>

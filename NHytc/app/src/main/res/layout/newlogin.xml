@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <include layout="@layout/title_bar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+    <ImageView
+        android:layout_marginTop="15dip"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:src="@mipmap/logobg"
+        />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dip"
+    android:gravity="center"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:background="@drawable/shapelogin"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    手机号:"
+                android:layout_marginLeft="10dip"
+                android:layout_gravity="center_vertical"
+                />
+            <EditText
+                android:id="@+id/et_phone_new_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:layout_marginLeft="10dip"
+                />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:gravity="center"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/shapelogin"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        学号:"
+                    android:layout_marginLeft="10dip"
+                    android:layout_gravity="center_vertical"
+                    />
+                <EditText
+                    android:id="@+id/et_stu_number_newlogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:maxLength="15"
+                    android:layout_marginLeft="10dip"
+                    />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:gravity="center"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/shapelogin"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        院系:"
+                    android:layout_marginLeft="10dip"
+                    android:layout_gravity="center_vertical"
+                    />
+                <Spinner
+                    android:id="@+id/sp_faculty"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:entries="@array/yuan_xi"
+                    >
+                </Spinner>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:gravity="center"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/shapelogin"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        性别:"
+                    android:layout_marginLeft="10dip"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <Spinner
+                    android:id="@+id/sp_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:entries="@array/sex"
+                    >
+                </Spinner>
+                <!--<EditText
+                    android:id="@+id/et_sex_new_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:singleLine="true"
+                    />-->
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:gravity="center"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/shapelogin"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        密码:"
+                    android:layout_marginLeft="10dip"
+                    android:layout_gravity="center_vertical"
+                    />
+                <EditText
+                    android:id="@+id/et_password1_new_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:singleLine="true"
+                    android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:layout_marginLeft="10dip"
+                    android:hint="英文或数字"
+                    android:password="true"
+                    />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:gravity="center"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/shapelogin"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="确认密码:"
+                    android:layout_marginLeft="10dip"
+                    android:layout_gravity="center_vertical"
+                    />
+                <EditText
+                    android:id="@+id/et_password2_new_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:singleLine="true"
+                    android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:layout_marginLeft="10dip"
+                    android:password="true"
+                    />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/bt_sure_get_code"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/buttonshap"
+            android:text="获取验证码"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/shapelogin"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dip"
+            android:layout_marginLeft="4dip"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="验证码:"
+                    android:layout_marginLeft="10dip"
+                    android:layout_gravity="center_vertical"
+                    android:singleLine="true"
+                    />
+                <EditText
+                    android:id="@+id/et_code_new_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:layout_gravity="center_vertical"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

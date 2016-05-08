@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="230dp"
+        android:orientation="horizontal"
+        >
+        <com.ab.view.sample.AbInnerViewPager
+            android:id="@+id/container1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null">
+        </com.ab.view.sample.AbInnerViewPager>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_image1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dip">
+        <TextView
+            android:id="@+id/tv_homeright_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ll_ivright_homelist"
+            android:textSize="12sp"
+            />
+        <LinearLayout
+            android:id="@+id/ll_ivright_homelist"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/fl_home_listitem2"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            >
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/fl_home_listitem2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            >
+            <View
+                android:layout_width="8dip"
+                android:layout_height="fill_parent"
+                android:background="#dbdbdb"
+                />
+        </FrameLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            >
+            <ImageView
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:src="@drawable/pointbig"
+                android:layout_gravity="center"
+                android:layout_marginTop="-25dp"
+                />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    <!--
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="230dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <com.ab.view.sample.AbInnerViewPager
+            android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null">
+
+        </com.ab.view.sample.AbInnerViewPager>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/t1"
+            >
+
+            <LinearLayout
+                android:id="@+id/ll_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    -->
+
+</LinearLayout>

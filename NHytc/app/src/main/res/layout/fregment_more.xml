@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivory_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="44dip"
+            android:background="@drawable/titleshape"
+            >
+
+            <ImageView
+                android:id="@+id/iv_menu"
+                android:layout_width="23dp"
+                android:layout_height="25dp"
+                android:src="@drawable/iconfont_category"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dip"
+                />
+
+            <TextView
+                android:id="@+id/tv_title_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_fregment_more1"
+            android:layout_width="0dip"
+            android:layout_height="100dip"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@drawable/more_back"
+            android:layout_margin="10dip"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_more1"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:src="@mipmap/iconfontservice"
+
+                    />
+                <TextView
+                    android:id="@+id/tv_more1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="失物寻物"
+                    android:textColor="@color/black"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_fregment_more2"
+            android:layout_width="0dip"
+            android:layout_height="100dip"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@drawable/more_back"
+            android:layout_margin="10dip"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_more2"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:src="@mipmap/iconfontcart"
+                    />
+                <TextView
+                    android:id="@+id/tv_more2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="跳蚤市场"
+                    android:textColor="@color/black"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/rl_fregment_more3"
+            android:layout_width="0dip"
+            android:layout_height="100dip"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@drawable/more_back"
+            android:layout_margin="10dip"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_more3"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:src="@mipmap/iconfontcalendar"
+                    />
+                <TextView
+                    android:id="@+id/tv_more3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="表白墙"
+                    android:textColor="@color/black"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <RelativeLayout
+                android:id="@+id/rl_fregment_more4"
+                android:layout_width="0dip"
+                android:layout_height="100dip"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@drawable/more_back"
+                android:layout_margin="10dip"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_more4"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:src="@mipmap/iconfontapps"
+                        />
+                    <TextView
+                        android:id="@+id/tv_more4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="四六级查询"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_fregment_more5"
+                android:layout_width="0dip"
+                android:layout_height="100dip"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@drawable/more_back"
+                android:layout_margin="10dip"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_more5"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:src="@mipmap/iconfontphone"
+                        />
+                    <TextView
+                        android:id="@+id/tv_more5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="部门电话"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/rl_fregment_more6"
+                android:layout_width="0dip"
+                android:layout_height="100dip"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@drawable/more_back"
+                android:layout_margin="10dip"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_more6"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:src="@drawable/iconfontsearchlist"
+                        />
+                    <TextView
+                        android:id="@+id/tv_more6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="课表"
+                        android:textColor="@color/black"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
