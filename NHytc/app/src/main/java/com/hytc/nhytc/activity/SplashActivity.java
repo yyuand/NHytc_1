@@ -3,30 +3,17 @@ package com.hytc.nhytc.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.WindowManager;
 import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.hytc.nhytc.R;
-import com.hytc.nhytc.domain.Splash;
 import com.hytc.nhytc.tool.BitmapHelper;
-import com.hytc.nhytc.tool.picture.Image;
 import com.lidroid.xutils.BitmapUtils;
 
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
 import cn.bmob.v3.Bmob;
-import cn.bmob.v3.BmobQuery;
-import cn.bmob.v3.listener.FindListener;
-import de.greenrobot.event.EventBus;
 
 /**
  * Created by Administrator on 2016/3/9.
@@ -42,7 +29,7 @@ public class SplashActivity extends Activity {
         super.onCreate(savedInstanceState);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//去掉信息栏
         setContentView(R.layout.splash);
-        Bmob.initialize(this, "865a0d2ccb39ccd064162192f564de5c");
+        Bmob.initialize(this, "c86d7a0d5cea82f223c8cd789ff283a2");
 
         sharedPreferences = getSharedPreferences("first", Activity.MODE_PRIVATE);
         final SharedPreferences.Editor editor = sharedPreferences.edit();

@@ -6,7 +6,6 @@ import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.CheckBox;
@@ -19,7 +18,6 @@ import android.widget.Toast;
 import com.hytc.nhytc.R;
 import com.hytc.nhytc.dbDAO.CourseDao;
 import com.hytc.nhytc.domain.Lesson;
-import com.hytc.nhytc.domain.User;
 import com.hytc.nhytc.tool.BitmapHelper;
 import com.hytc.nhytc.tool.CourseTools;
 import com.lidroid.xutils.BitmapUtils;
@@ -39,8 +37,6 @@ import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
-import cn.bmob.v3.BmobUser;
 
 /**
  * Created by Administrator on 2016/4/27.

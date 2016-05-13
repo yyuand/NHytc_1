@@ -89,14 +89,14 @@
             android:id="@+id/gl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:columnCount="2"
+            android:columnCount="3"
             android:layout_centerInParent="true"
             android:orientation="horizontal">
 
             <RelativeLayout
                 android:id="@+id/rlGoPublishMerchandise"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginRight="30dp"
+                android:layout_marginRight="15dp"
                 android:layout_margin="15dp">
 
                 <ImageView
@@ -119,7 +119,7 @@
                 android:id="@+id/rlGoPublishNeed"
                 android:layout_gravity="center"
                 android:layout_margin="15dp"
-                android:layout_marginLeft="30dp">
+                android:layout_marginLeft="15dp">
 
                 <ImageView
                     android:layout_width="40dp"
@@ -179,6 +179,50 @@
                     android:layout_centerHorizontal="true"
                     android:textColor="#eb4f38"
                     android:text="去表白" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlGoPublishjobe"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:layout_marginLeft="30dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/iv_publish_partjobe"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/loveyes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_publish_partjobe"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#eb4f38"
+                    android:text="发布兼职" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlGoPublishactivitys"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:layout_marginLeft="30dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/iv_publish_activities"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/loveyes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_publish_activities"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#eb4f38"
+                    android:text="发起活动" />
             </RelativeLayout>
         </GridLayout>
 

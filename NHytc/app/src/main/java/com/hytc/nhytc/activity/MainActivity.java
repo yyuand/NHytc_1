@@ -10,7 +10,6 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
@@ -511,6 +510,29 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 					mpopupWindow.dismiss();
 				}
 			});
+			RelativeLayout rlPublishjob = (RelativeLayout) view.findViewById(R.id.rlGoPublishjobe);
+			rlPublishjob.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					Intent intent = new Intent();
+					intent.setClass(MainActivity.this, ActNewPartjobPublish.class);
+					startActivity(intent);
+					rotateToLeft(iv_pop_more);
+					mpopupWindow.dismiss();
+				}
+			});
+			RelativeLayout rlPublishactivities = (RelativeLayout) view.findViewById(R.id.rlGoPublishactivitys);
+			rlPublishactivities.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					Intent intent = new Intent();
+					intent.setClass(MainActivity.this, ShowLovePublishActivity.class);
+					startActivity(intent);
+					rotateToLeft(iv_pop_more);
+					mpopupWindow.dismiss();
+				}
+			});
+
 		}
 		gl.startAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.push_bottom_in));
 		rotateToRight(iv_pop_more);

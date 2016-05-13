@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <include layout="@layout/title_bar"/>
+
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:gravity="center_vertical"
+				android:layout_marginTop="15dip"
+				>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="兼职名称："
+					android:layout_marginLeft="10dp"
+					android:textSize="18sp"
+					android:textColor="@color/blue_dark"
+					/>
+				<EditText
+					android:id="@+id/et_partjob_name"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:maxLines="2"
+					android:maxLength="30"
+					android:layout_marginRight="10dip"
+					android:background="@null"
+				    android:hint="请填写兼职名称"
+
+					/>
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:background="@color/LightGray"
+				android:layout_marginTop="6dip"
+				android:layout_marginBottom="6dip"
+
+				/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_marginTop="6dip"
+
+				>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="兼职时间："
+					android:layout_marginLeft="10dp"
+					android:textSize="18sp"
+					android:textColor="@color/blue_dark"
+
+
+					/>
+
+				<EditText
+					android:id="@+id/et_partjob_place"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:maxLines="2"
+					android:maxLength="50"
+					android:layout_marginRight="10dip"
+					android:background="@null"
+					/>
+
+
+
+			</LinearLayout>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:background="@color/LightGray"
+				android:layout_marginTop="6dip"
+				android:layout_marginBottom="6dip"
+
+				/>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_marginTop="6dip"
+
+				>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="兼职地点："
+					android:layout_marginLeft="10dp"
+					android:textSize="18sp"
+					android:textColor="@color/blue_dark"
+
+					/>
+
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:lines="1"
+					android:maxLength="12"
+					android:layout_marginRight="10dip"
+					android:background="@null"
+
+					/>
+			</LinearLayout>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:background="@color/LightGray"
+				android:layout_marginTop="6dip"
+				android:layout_marginBottom="6dip"
+
+				/>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_marginTop="6dip"
+
+				>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="职位要求："
+					android:layout_marginLeft="10dp"
+					android:textSize="18sp"
+					android:textColor="@color/blue_dark"
+
+					/>
+
+				<EditText
+					android:id="@+id/et_partjob_require"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:maxLength="100"
+					android:layout_marginRight="10dip"
+					android:background="@null"
+				    android:hint="如人数、性别，身高等限制"
+
+					/>
+			</LinearLayout>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:background="@color/LightGray"
+				android:layout_marginTop="6dip"
+				android:layout_marginBottom="6dip"
+
+				/>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_marginTop="6dip"
+
+				>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="薪       酬："
+					android:layout_marginLeft="10dp"
+					android:textSize="18sp"
+					android:textColor="@color/blue_dark"
+
+					/>
+
+				<EditText
+					android:id="@+id/et_partjob_salary"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:maxLines="2"
+					android:maxLength="50"
+					android:layout_marginRight="10dip"
+					android:background="@null"
+					/>
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:background="@color/LightGray"
+				android:layout_marginTop="6dip"
+				android:layout_marginBottom="6dip"
+
+				/>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_marginTop="6dip"
+
+				>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="职位简介："
+					android:layout_marginLeft="10dp"
+					android:textSize="18sp"
+					android:textColor="@color/blue_dark"
+
+					/>
+
+				<EditText
+					android:id="@+id/et_partjob_describe"
+					android:layout_width="match_parent"
+					android:layout_height="150dip"
+					android:hint="请填写详细信息，让同学们快速了解工作！"
+					android:layout_marginRight="10dip"
+					android:background="@null"
+
+					/>
+			</LinearLayout>
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:background="@color/LightGray"
+				android:layout_marginTop="6dip"
+				android:layout_marginBottom="6dip"
+
+				/>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:layout_marginTop="6dip"
+
+				>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="联系方式："
+					android:layout_marginLeft="10dp"
+					android:textSize="18sp"
+					android:textColor="@color/blue_dark"
+
+					/>
+
+				<EditText
+					android:id="@+id/et_partjob_tel"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:lines="1"
+					android:inputType="phone"
+					android:layout_marginRight="10dip"
+					android:background="@null"
+				    android:hint="请填写手机号码"
+					/>
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dip"
+				android:background="@color/LightGray"
+				android:layout_marginTop="6dip"
+				android:layout_marginBottom="6dip"
+			        />
+		</LinearLayout>
+
+	</ScrollView>
+
+
+</LinearLayout>

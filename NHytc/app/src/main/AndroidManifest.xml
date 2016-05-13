@@ -283,6 +283,12 @@
             android:screenOrientation="portrait">
         </activity>
 
+        <activity
+            android:name=".activity.ActNewPartjobPublish"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
         <activity android:name=".tool.picture.MultiImageSelectorActivity"></activity>
 
         <activity android:name=".tool.picture.PreviewActivity"></activity>
