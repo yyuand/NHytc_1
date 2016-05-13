@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/androidwork/new_hytc/NHytc/IMKitWithVoIP/src/main/res/values-en/rc_strings.xml -->
+    <!-- From: file:/D:/git/Git/SGL_HYTC/NHytc/IMKitWithVoIP/src/main/res/values-en/rc_strings.xml -->
     <eat-comment/>
     <string name="rc_called_accept">The other accepted the call request</string>
     <string name="rc_called_is_calling">Calling number is talking</string>

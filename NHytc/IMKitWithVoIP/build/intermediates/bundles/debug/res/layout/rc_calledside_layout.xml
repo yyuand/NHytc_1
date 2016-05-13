@@ -164,4 +164,4 @@
         android:background="#88000000"
         android:clickable="true"
         android:visibility="gone"/>
-</RelativeLayout><!-- From: file:/D:/androidwork/new_hytc/NHytc/IMKitWithVoIP/src/main/res/layout/rc_calledside_layout.xml -->
+</RelativeLayout><!-- From: file:/D:/git/Git/SGL_HYTC/NHytc/IMKitWithVoIP/src/main/res/layout/rc_calledside_layout.xml -->

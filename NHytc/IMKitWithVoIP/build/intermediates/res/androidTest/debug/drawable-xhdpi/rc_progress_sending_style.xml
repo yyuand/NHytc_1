@@ -2,4 +2,4 @@
     android:drawable="@drawable/rc_loading"
     android:pivotX="50%"
     android:pivotY="50%"
-    /><!-- From: file:/D:/androidwork/new_hytc/NHytc/IMKitWithVoIP/src/main/res/drawable-xhdpi/rc_progress_sending_style.xml --><!-- From: file:/D:/androidwork/new_hytc/NHytc/IMKitWithVoIP/build/intermediates/bundles/debug/res/drawable-xhdpi/rc_progress_sending_style.xml -->
+    /><!-- From: file:/D:/git/Git/SGL_HYTC/NHytc/IMKitWithVoIP/src/main/res/drawable-xhdpi/rc_progress_sending_style.xml --><!-- From: file:/D:/git/Git/SGL_HYTC/NHytc/IMKitWithVoIP/build/intermediates/bundles/debug/res/drawable-xhdpi/rc_progress_sending_style.xml -->

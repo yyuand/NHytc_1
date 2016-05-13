@@ -11,4 +11,4 @@
         android:id="@id/rc_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-</FrameLayout><!-- From: file:/D:/androidwork/new_hytc/NHytc/IMKitWithVoIP/src/main/res/layout/rc_activity.xml -->
+</FrameLayout><!-- From: file:/D:/git/Git/SGL_HYTC/NHytc/IMKitWithVoIP/src/main/res/layout/rc_activity.xml -->

@@ -45,4 +45,4 @@
         android:layout_marginLeft="10dp"
         android:src="@drawable/rc_voice_unread"/>
 
-</LinearLayout><!-- From: file:/D:/androidwork/new_hytc/NHytc/IMKitWithVoIP/src/main/res/layout/rc_item_voice_message.xml -->
+</LinearLayout><!-- From: file:/D:/git/Git/SGL_HYTC/NHytc/IMKitWithVoIP/src/main/res/layout/rc_item_voice_message.xml -->

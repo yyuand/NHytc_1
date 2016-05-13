@@ -1,11 +1,11 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 22
+    buildToolsVersion "23.0.0 rc2"
     defaultConfig {
         minSdkVersion 9
-        targetSdkVersion 23
+        targetSdkVersion 22
        	versionCode 2016020122
         versionName "2.4.7 Stable"
 
@@ -27,6 +27,7 @@ android {
         }
     }
 }
+
 
 dependencies {
     compile fileTree(dir: 'src/main/libs', include: ['*.jar'])
