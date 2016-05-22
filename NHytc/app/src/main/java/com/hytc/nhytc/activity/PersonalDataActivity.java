@@ -31,12 +31,7 @@ import com.ab.util.AbFileUtil;
 import com.ab.util.AbLogUtil;
 import com.ab.util.AbStrUtil;
 import com.ab.util.AbToastUtil;
-import com.bmob.BTPFileResponse;
-import com.bmob.BmobProFile;
-import com.bmob.btp.callback.DeleteFileListener;
-import com.bmob.btp.callback.UploadListener;
 import com.hytc.nhytc.R;
-import com.hytc.nhytc.adapter.PublishPhotoGridAdapter;
 import com.hytc.nhytc.domain.User;
 import com.hytc.nhytc.tool.BitmapHelper;
 import com.hytc.nhytc.view.CircleImageView;
@@ -52,8 +47,10 @@ import java.util.concurrent.TimeUnit;
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.datatype.BmobFile;
+import cn.bmob.v3.listener.DeleteListener;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.UpdateListener;
+import cn.bmob.v3.listener.UploadFileListener;
 
 /**
  * Created by Administrator on 2016/2/27.
@@ -556,26 +553,32 @@ public class PersonalDataActivity extends AbActivity implements View.OnClickList
 
     public void upLoadHeader(String picpath){
         progressDialog.show();
-        BTPFileResponse response = BmobProFile.getInstance(this).upload(picpath, new UploadListener() {
+
+        final BmobFile bmobFile = new BmobFile(new File(picpath));
+        bmobFile.uploadblock(this, new UploadFileListener() {
+
             @Override
-            public void onSuccess(String s, String s1, BmobFile bmobFile) {
-                setpersonaldata(1,bmobFile.getUrl(),s);
+            public void onSuccess() {
+                setpersonaldata(1,bmobFile.getFileUrl(PersonalDataActivity.this),bmobFile.getUrl());
+                //bmobFile.getFileUrl(context)--返回的上传文件的完整地址
             }
 
             @Override
-            public void onProgress(int i) {
-
+            public void onProgress(Integer value) {
+                // 返回的上传进度（百分比）
             }
 
             @Override
-            public void onError(int i, String s) {
-
+            public void onFailure(int code, String msg) {
             }
         });
     }
 
     public void deletepicture(String picpath){
-        BmobProFile.getInstance(this).deleteFile(picpath, new DeleteFileListener() {
+        BmobFile file = new BmobFile();
+        file.setUrl(picpath);//此url是上传文件成功之后通过bmobFile.getUrl()方法获取的。
+        file.delete(this, new DeleteListener() {
+
             @Override
             public void onSuccess() {
                 progressDialog.dismiss();
@@ -583,7 +586,7 @@ public class PersonalDataActivity extends AbActivity implements View.OnClickList
             }
 
             @Override
-            public void onError(int i, String s) {
+            public void onFailure(int code, String msg) {
                 progressDialog.dismiss();
                 Toast.makeText(PersonalDataActivity.this, "信息修改成功！", Toast.LENGTH_SHORT).show();
             }

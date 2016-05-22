@@ -514,11 +514,15 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 			rlPublishjob.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View v) {
-					Intent intent = new Intent();
-					intent.setClass(MainActivity.this, ActNewPartjobPublish.class);
-					startActivity(intent);
-					rotateToLeft(iv_pop_more);
-					mpopupWindow.dismiss();
+					if (isRealName()) {
+						Intent intent = new Intent();
+						intent.setClass(MainActivity.this, ActNewPartjobPublish.class);
+						startActivity(intent);
+						rotateToLeft(iv_pop_more);
+						mpopupWindow.dismiss();
+					}else {
+						showRealNameDialog();
+					}
 				}
 			});
 			RelativeLayout rlPublishactivities = (RelativeLayout) view.findViewById(R.id.rlGoPublishactivitys);
@@ -526,7 +530,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 				@Override
 				public void onClick(View v) {
 					Intent intent = new Intent();
-					intent.setClass(MainActivity.this, ShowLovePublishActivity.class);
+					intent.setClass(MainActivity.this, ActivitiesPublishActivity.class);
 					startActivity(intent);
 					rotateToLeft(iv_pop_more);
 					mpopupWindow.dismiss();
@@ -594,5 +598,37 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 		}
 
 
+	}
+
+	/**
+	 * 判断是否实名制
+	 * @return
+	 */
+	private Boolean isRealName(){
+		Boolean result=false;
+		try{
+			if(user.getIsRealName())
+				result=true;
+		}catch(Exception ignored){
+		}
+		return  result;
+	}
+
+
+	private void showRealNameDialog(){
+		AlertDialog.Builder dialog= new AlertDialog.Builder(this);
+		dialog.setTitle("实名认证");
+		dialog.setMessage("为保证同学们的合法权益，请先去实名认证哟~");
+		dialog.setNegativeButton("取消", null);
+		dialog.setPositiveButton("去认证", new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				Intent intent = new Intent();
+				intent.setClass(MainActivity.this,ActRealName.class);
+				MainActivity.this.startActivity(intent);
+			}
+		});
+		dialog.create();
+		dialog.show();
 	}
 }

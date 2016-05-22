@@ -13,9 +13,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.Toast;
-
-import com.bmob.BmobProFile;
-import com.bmob.btp.callback.DeleteFileListener;
 import com.hytc.nhytc.R;
 import com.hytc.nhytc.activity.ImageViewActivity;
 import com.hytc.nhytc.domain.UserPhotosData;
@@ -166,21 +163,21 @@ public class PicsGirdAdapter extends BaseAdapter {
      * @param url
      */
     public void deletepic(String url, final int position){
-
-        BmobProFile.getInstance(context).deleteFile(url, new DeleteFileListener() {
-
-            @Override
-            public void onError(int errorcode, String errormsg) {
-                progressDialog.dismiss();
-                Log.e("PicsGirdAdapter", errorcode + "      " + errormsg);
-                Toast.makeText(context, "图片删除失败！", Toast.LENGTH_SHORT).show();
-            }
+        BmobFile file = new BmobFile();
+        file.setUrl(url);//此url是上传文件成功之后通过bmobFile.getUrl()方法获取的。
+        file.delete(context, new DeleteListener() {
 
             @Override
             public void onSuccess() {
                 progressDialog.dismiss();
                 setData(position);
                 Toast.makeText(context, "图片删除成功！", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onFailure(int code, String msg) {
+                progressDialog.dismiss();
+                Toast.makeText(context, "图片删除失败！", Toast.LENGTH_SHORT).show();
             }
         });
     }

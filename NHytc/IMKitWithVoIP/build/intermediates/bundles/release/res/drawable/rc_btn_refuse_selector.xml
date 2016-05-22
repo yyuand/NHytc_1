@@ -9,4 +9,4 @@
     <!-- Pressed -->
     <item android:drawable="@drawable/rc_call_over_down" android:state_pressed="true"/>
 
-</selector><!-- From: file:/D:/git/Git/SGL_HYTC/NHytc/IMKitWithVoIP/src/main/res/drawable/rc_btn_refuse_selector.xml -->
+</selector>

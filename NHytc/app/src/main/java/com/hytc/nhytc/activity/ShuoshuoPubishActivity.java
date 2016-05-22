@@ -17,8 +17,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bmob.BmobProFile;
-import com.bmob.btp.callback.UploadBatchListener;
 import com.hytc.nhytc.R;
 import com.hytc.nhytc.adapter.PublishPhotoGridAdapter;
 import com.hytc.nhytc.domain.ShuoShuo;
@@ -31,10 +29,12 @@ import java.io.FileInputStream;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.datatype.BmobFile;
 import cn.bmob.v3.listener.SaveListener;
+import cn.bmob.v3.listener.UploadBatchListener;
 import me.nereo.multi_image_selector.MultiImageSelectorActivity;
 
 
@@ -178,7 +178,7 @@ public class ShuoshuoPubishActivity extends Activity implements View.OnClickList
 
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == REQUEST_IMAGE){
             if(resultCode == RESULT_OK){
@@ -231,38 +231,38 @@ public class ShuoshuoPubishActivity extends Activity implements View.OnClickList
     public void upLoadPicture(){
         String[] pics = getStringpics();
         final int count = pics.length;
+        final String[] pictures = new String[count];
+        final String[] fileNames = new String[count];
 
-        BmobProFile.getInstance(this).uploadBatch(pics, new UploadBatchListener() {
+        BmobFile.uploadBatch(this, pics, new UploadBatchListener() {
 
             @Override
-            public void onSuccess(boolean isFinish, String[] fileNames, String[] urls, BmobFile[] files) {
-                // isFinish ：批量上传是否完成
-                // fileNames：文件名数组
-                // urls        : url：文件地址数组
-                // files     : BmobFile文件数组，`V3.4.1版本`开始提供，用于兼容新旧文件服务。
-                if (urls.length == count && urls[urls.length - 1] != null) {
-                    for (int i = 0; i < urls.length; i++) {
-                        urls[i] = files[i].getFileUrl(ShuoshuoPubishActivity.this);
+            public void onSuccess(List<BmobFile> files, List<String> urls) {
+                //1、files-上传完成后的BmobFile集合，是为了方便大家对其上传后的数据进行操作，例如你可以将该文件保存到表中
+                //2、urls-上传文件的完整url地址
+                if (urls.size() == count) {//如果数量相等，则代表文件全部上传完成
+                    //do something
+                    for (int i = 0; i < count; i++) {
+                        pictures[i] = urls.get(i);
+                        fileNames[i] = files.get(i).getUrl();
                     }
-                    parseData(urls,fileNames);
+                    parseData(pictures, fileNames);
                 }
-
-            }
-
-            @Override
-            public void onProgress(int curIndex, int curPercent, int total, int totalPercent) {
-                progressDialog.setMessage("淮说发表中 " + totalPercent + "% ...");
-                // curIndex    :表示当前第几个文件正在上传
-                // curPercent  :表示当前上传文件的进度值（百分比）
-                // total       :表示总的上传文件数
-                // totalPercent:表示总的上传进度（百分比）
             }
 
             @Override
             public void onError(int statuscode, String errormsg) {
-                // TODO Auto-generated method stub
                 title_rl.setClickable(true);
                 Toast.makeText(ShuoshuoPubishActivity.this, "发表失败！", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onProgress(int curIndex, int curPercent, int total, int totalPercent) {
+                //1、curIndex--表示当前第几个文件正在上传
+                //2、curPercent--表示当前上传文件的进度值（百分比）
+                //3、total--表示总的上传文件数
+                //4、totalPercent--表示总的上传进度（百分比）
+                progressDialog.setMessage("淮说发表中 " + totalPercent + "% ...");
             }
         });
     }

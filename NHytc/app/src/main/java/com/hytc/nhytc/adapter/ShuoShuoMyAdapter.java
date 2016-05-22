@@ -16,8 +16,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.bmob.BmobProFile;
-import com.bmob.btp.callback.DeleteFileListener;
 import com.hytc.nhytc.R;
 import com.hytc.nhytc.activity.PersonDetailDataActivity;
 import com.hytc.nhytc.activity.ShuoshuoDetailActivity;
@@ -36,6 +34,9 @@ import java.util.List;
 
 import cn.bmob.v3.BmobObject;
 import cn.bmob.v3.BmobQuery;
+import cn.bmob.v3.datatype.BmobFile;
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.DeleteBatchListener;
 import cn.bmob.v3.listener.DeleteListener;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.UpdateListener;
@@ -384,20 +385,31 @@ public class ShuoShuoMyAdapter extends BaseAdapter {
     }
 
     public void deletepictures(List<String> picnames){
+
         if(picnames != null) {
-            for (String picname : picnames) {
-                BmobProFile.getInstance(activity).deleteFile(picname, new DeleteFileListener() {
-                    @Override
-                    public void onSuccess() {
-
-                    }
-
-                    @Override
-                    public void onError(int i, String s) {
-
-                    }
-                });
+            final int count = picnames.size();
+            String[] pics = new String[count];
+            for(int i=0;i<count;i++){
+                pics[i] = picnames.get(i);
             }
+
+            BmobFile.deleteBatch(activity, pics, new DeleteBatchListener() {
+
+                @Override
+                public void done(String[] failUrls, BmobException e) {
+                    //!!!! 此处删除成功与否，我们不关心
+
+                /*if (e == null) {
+                    toast("全部删除成功");
+                } else {
+                    if (failUrls != null) {
+                        toast("删除失败个数：" + failUrls.length + "," + e.toString());
+                    } else {
+                        toast("全部文件删除失败：" + e.getErrorCode() + "," + e.toString());
+                    }
+                }*/
+                }
+            });
         }
     }
 

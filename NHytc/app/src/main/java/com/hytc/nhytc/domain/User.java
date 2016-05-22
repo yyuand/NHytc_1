@@ -22,6 +22,18 @@ public class User extends BmobUser {
     private Integer praise;
     /**被暗恋的个数*/
     private Integer loved;
+    /**是否实名认证**/
+    private Boolean isRealName;
+
+    public Boolean getIsRealName() {
+        return isRealName;
+    }
+
+    public void setIsRealName(Boolean isRealName) {
+        this.isRealName = isRealName;
+    }
+
+
 
     public User() {}
 

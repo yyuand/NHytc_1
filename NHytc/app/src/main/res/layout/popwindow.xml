@@ -81,8 +81,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="55dp"
         android:padding="15dp"
-        android:layout_marginRight="30dip"
-        android:layout_marginLeft="30dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginLeft="10dip"
         >
 
         <GridLayout
@@ -141,7 +141,7 @@
                 android:id="@+id/rlGoPublishcourierbring"
                 android:layout_gravity="center"
                 android:layout_margin="15dp"
-                android:layout_marginRight="30dp">
+                android:layout_marginRight="15dp">
 
                 <ImageView
                     android:layout_width="40dp"
@@ -163,7 +163,7 @@
                 android:id="@+id/rlGoPublishcouriertake"
                 android:layout_gravity="center"
                 android:layout_margin="15dp"
-                android:layout_marginLeft="30dp">
+                android:layout_marginLeft="15dp">
 
                 <ImageView
                     android:layout_width="40dp"
@@ -185,7 +185,7 @@
                 android:id="@+id/rlGoPublishjobe"
                 android:layout_gravity="center"
                 android:layout_margin="15dp"
-                android:layout_marginLeft="30dp">
+                android:layout_marginLeft="15dp">
 
                 <ImageView
                     android:layout_width="40dp"
@@ -207,7 +207,7 @@
                 android:id="@+id/rlGoPublishactivitys"
                 android:layout_gravity="center"
                 android:layout_margin="15dp"
-                android:layout_marginLeft="30dp">
+                android:layout_marginLeft="15dp">
 
                 <ImageView
                     android:layout_width="40dp"

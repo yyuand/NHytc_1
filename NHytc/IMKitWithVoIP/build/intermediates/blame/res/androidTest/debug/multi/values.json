@@ -1,0 +1,3782 @@
+[
+    {
+        "outputFile": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 131,
+                    "endColumn": 24,
+                    "endOffset": 4322
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 131,
+                        "endColumn": 24,
+                        "endOffset": 4322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 4327,
+                    "endLine": 261,
+                    "endColumn": 12,
+                    "endOffset": 9213
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 4327,
+                        "endLine": 261,
+                        "endColumn": 12,
+                        "endOffset": 9213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 9218,
+                    "endColumn": 60,
+                    "endOffset": 9274
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 262,
+                        "startColumn": 4,
+                        "startOffset": 9218,
+                        "endColumn": 60,
+                        "endOffset": 9274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 9279,
+                    "endColumn": 53,
+                    "endOffset": 9328
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 263,
+                        "startColumn": 4,
+                        "startOffset": 9279,
+                        "endColumn": 53,
+                        "endOffset": 9328
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 9333,
+                    "endColumn": 44,
+                    "endOffset": 9373
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 264,
+                        "startColumn": 4,
+                        "startOffset": 9333,
+                        "endColumn": 44,
+                        "endOffset": 9373
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 9378,
+                    "endColumn": 45,
+                    "endOffset": 9419
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 4,
+                        "startOffset": 9378,
+                        "endColumn": 45,
+                        "endOffset": 9419
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 266,
+                    "startColumn": 4,
+                    "startOffset": 9424,
+                    "endColumn": 56,
+                    "endOffset": 9476
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 266,
+                        "startColumn": 4,
+                        "startOffset": 9424,
+                        "endColumn": 56,
+                        "endOffset": 9476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 267,
+                    "startColumn": 4,
+                    "startOffset": 9481,
+                    "endColumn": 48,
+                    "endOffset": 9525
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 267,
+                        "startColumn": 4,
+                        "startOffset": 9481,
+                        "endColumn": 48,
+                        "endOffset": 9525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 9530,
+                    "endColumn": 45,
+                    "endOffset": 9571
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 268,
+                        "startColumn": 4,
+                        "startOffset": 9530,
+                        "endColumn": 45,
+                        "endOffset": 9571
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 9576,
+                    "endColumn": 54,
+                    "endOffset": 9626
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 269,
+                        "startColumn": 4,
+                        "startOffset": 9576,
+                        "endColumn": 54,
+                        "endOffset": 9626
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 270,
+                    "startColumn": 4,
+                    "startOffset": 9631,
+                    "endColumn": 46,
+                    "endOffset": 9673
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 270,
+                        "startColumn": 4,
+                        "startOffset": 9631,
+                        "endColumn": 46,
+                        "endOffset": 9673
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 271,
+                    "startColumn": 4,
+                    "startOffset": 9678,
+                    "endColumn": 52,
+                    "endOffset": 9726
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 271,
+                        "startColumn": 4,
+                        "startOffset": 9678,
+                        "endColumn": 52,
+                        "endOffset": 9726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 9731,
+                    "endColumn": 48,
+                    "endOffset": 9775
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 272,
+                        "startColumn": 4,
+                        "startOffset": 9731,
+                        "endColumn": 48,
+                        "endOffset": 9775
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 9780,
+                    "endColumn": 53,
+                    "endOffset": 9829
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 273,
+                        "startColumn": 4,
+                        "startOffset": 9780,
+                        "endColumn": 53,
+                        "endOffset": 9829
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 9834,
+                    "endColumn": 52,
+                    "endOffset": 9882
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 274,
+                        "startColumn": 4,
+                        "startOffset": 9834,
+                        "endColumn": 52,
+                        "endOffset": 9882
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 9887,
+                    "endColumn": 47,
+                    "endOffset": 9930
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 275,
+                        "startColumn": 4,
+                        "startOffset": 9887,
+                        "endColumn": 47,
+                        "endOffset": 9930
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 9935,
+                    "endColumn": 55,
+                    "endOffset": 9986
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 276,
+                        "startColumn": 4,
+                        "startOffset": 9935,
+                        "endColumn": 55,
+                        "endOffset": 9986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 9991,
+                    "endColumn": 76,
+                    "endOffset": 10063
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 277,
+                        "startColumn": 4,
+                        "startOffset": 9991,
+                        "endColumn": 76,
+                        "endOffset": 10063
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 278,
+                    "startColumn": 4,
+                    "startOffset": 10068,
+                    "endColumn": 57,
+                    "endOffset": 10121
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 278,
+                        "startColumn": 4,
+                        "startOffset": 10068,
+                        "endColumn": 57,
+                        "endOffset": 10121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 279,
+                    "startColumn": 4,
+                    "startOffset": 10126,
+                    "endColumn": 56,
+                    "endOffset": 10178
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 279,
+                        "startColumn": 4,
+                        "startOffset": 10126,
+                        "endColumn": 56,
+                        "endOffset": 10178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 280,
+                    "startColumn": 4,
+                    "startOffset": 10183,
+                    "endColumn": 47,
+                    "endOffset": 10226
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 280,
+                        "startColumn": 4,
+                        "startOffset": 10183,
+                        "endColumn": 47,
+                        "endOffset": 10226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 10231,
+                    "endColumn": 48,
+                    "endOffset": 10275
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 281,
+                        "startColumn": 4,
+                        "startOffset": 10231,
+                        "endColumn": 48,
+                        "endOffset": 10275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 286,
+                    "startColumn": 4,
+                    "startOffset": 11622,
+                    "endColumn": 61,
+                    "endOffset": 11679
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 286,
+                        "startColumn": 4,
+                        "startOffset": 11622,
+                        "endColumn": 61,
+                        "endOffset": 11679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 287,
+                    "startColumn": 4,
+                    "startOffset": 11684,
+                    "endColumn": 61,
+                    "endOffset": 11741
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 287,
+                        "startColumn": 4,
+                        "startOffset": 11684,
+                        "endColumn": 61,
+                        "endOffset": 11741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 11746,
+                    "endColumn": 64,
+                    "endOffset": 11806
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 288,
+                        "startColumn": 4,
+                        "startOffset": 11746,
+                        "endColumn": 64,
+                        "endOffset": 11806
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 289,
+                    "startColumn": 4,
+                    "startOffset": 11811,
+                    "endColumn": 41,
+                    "endOffset": 11848
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 4,
+                        "startOffset": 11811,
+                        "endColumn": 41,
+                        "endOffset": 11848
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 290,
+                    "startColumn": 4,
+                    "startOffset": 11853,
+                    "endColumn": 36,
+                    "endOffset": 11885
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 290,
+                        "startColumn": 4,
+                        "startOffset": 11853,
+                        "endColumn": 36,
+                        "endOffset": 11885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 11890,
+                    "endColumn": 42,
+                    "endOffset": 11928
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 291,
+                        "startColumn": 4,
+                        "startOffset": 11890,
+                        "endColumn": 42,
+                        "endOffset": 11928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 292,
+                    "startColumn": 4,
+                    "startOffset": 11933,
+                    "endColumn": 38,
+                    "endOffset": 11967
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 292,
+                        "startColumn": 4,
+                        "startOffset": 11933,
+                        "endColumn": 38,
+                        "endOffset": 11967
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 293,
+                    "startColumn": 4,
+                    "startOffset": 11972,
+                    "endColumn": 40,
+                    "endOffset": 12008
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 293,
+                        "startColumn": 4,
+                        "startOffset": 11972,
+                        "endColumn": 40,
+                        "endOffset": 12008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 294,
+                    "startColumn": 4,
+                    "startOffset": 12013,
+                    "endColumn": 39,
+                    "endOffset": 12048
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 294,
+                        "startColumn": 4,
+                        "startOffset": 12013,
+                        "endColumn": 39,
+                        "endOffset": 12048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 295,
+                    "startColumn": 4,
+                    "startOffset": 12053,
+                    "endColumn": 52,
+                    "endOffset": 12101
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 295,
+                        "startColumn": 4,
+                        "startOffset": 12053,
+                        "endColumn": 52,
+                        "endOffset": 12101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 296,
+                    "startColumn": 4,
+                    "startOffset": 12106,
+                    "endColumn": 54,
+                    "endOffset": 12156
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 296,
+                        "startColumn": 4,
+                        "startOffset": 12106,
+                        "endColumn": 54,
+                        "endOffset": 12156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 12161,
+                    "endColumn": 51,
+                    "endOffset": 12208
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 297,
+                        "startColumn": 4,
+                        "startOffset": 12161,
+                        "endColumn": 51,
+                        "endOffset": 12208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 12213,
+                    "endColumn": 49,
+                    "endOffset": 12258
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 298,
+                        "startColumn": 4,
+                        "startOffset": 12213,
+                        "endColumn": 49,
+                        "endOffset": 12258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 12263,
+                    "endColumn": 50,
+                    "endOffset": 12309
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 299,
+                        "startColumn": 4,
+                        "startOffset": 12263,
+                        "endColumn": 50,
+                        "endOffset": 12309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 300,
+                    "startColumn": 4,
+                    "startOffset": 12314,
+                    "endColumn": 40,
+                    "endOffset": 12350
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 300,
+                        "startColumn": 4,
+                        "startOffset": 12314,
+                        "endColumn": 40,
+                        "endOffset": 12350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 301,
+                    "startColumn": 4,
+                    "startOffset": 12355,
+                    "endColumn": 37,
+                    "endOffset": 12388
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 301,
+                        "startColumn": 4,
+                        "startOffset": 12355,
+                        "endColumn": 37,
+                        "endOffset": 12388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 12393,
+                    "endColumn": 36,
+                    "endOffset": 12425
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 302,
+                        "startColumn": 4,
+                        "startOffset": 12393,
+                        "endColumn": 36,
+                        "endOffset": 12425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 12430,
+                    "endColumn": 35,
+                    "endOffset": 12461
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 303,
+                        "startColumn": 4,
+                        "startOffset": 12430,
+                        "endColumn": 35,
+                        "endOffset": 12461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 304,
+                    "startColumn": 4,
+                    "startOffset": 12466,
+                    "endColumn": 47,
+                    "endOffset": 12509
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 304,
+                        "startColumn": 4,
+                        "startOffset": 12466,
+                        "endColumn": 47,
+                        "endOffset": 12509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 12514,
+                    "endColumn": 42,
+                    "endOffset": 12552
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 305,
+                        "startColumn": 4,
+                        "startOffset": 12514,
+                        "endColumn": 42,
+                        "endOffset": 12552
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 306,
+                    "startColumn": 4,
+                    "startOffset": 12557,
+                    "endColumn": 44,
+                    "endOffset": 12597
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 306,
+                        "startColumn": 4,
+                        "startOffset": 12557,
+                        "endColumn": 44,
+                        "endOffset": 12597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 12602,
+                    "endColumn": 37,
+                    "endOffset": 12635
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 307,
+                        "startColumn": 4,
+                        "startOffset": 12602,
+                        "endColumn": 37,
+                        "endOffset": 12635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 12640,
+                    "endColumn": 37,
+                    "endOffset": 12673
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 308,
+                        "startColumn": 4,
+                        "startOffset": 12640,
+                        "endColumn": 37,
+                        "endOffset": 12673
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 12678,
+                    "endColumn": 37,
+                    "endOffset": 12711
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 309,
+                        "startColumn": 4,
+                        "startOffset": 12678,
+                        "endColumn": 37,
+                        "endOffset": 12711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 12716,
+                    "endColumn": 37,
+                    "endOffset": 12749
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 310,
+                        "startColumn": 4,
+                        "startOffset": 12716,
+                        "endColumn": 37,
+                        "endOffset": 12749
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 12754,
+                    "endColumn": 37,
+                    "endOffset": 12787
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 311,
+                        "startColumn": 4,
+                        "startOffset": 12754,
+                        "endColumn": 37,
+                        "endOffset": 12787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 312,
+                    "startColumn": 4,
+                    "startOffset": 12792,
+                    "endColumn": 37,
+                    "endOffset": 12825
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 312,
+                        "startColumn": 4,
+                        "startOffset": 12792,
+                        "endColumn": 37,
+                        "endOffset": 12825
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 313,
+                    "startColumn": 4,
+                    "startOffset": 12830,
+                    "endColumn": 37,
+                    "endOffset": 12863
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 313,
+                        "startColumn": 4,
+                        "startOffset": 12830,
+                        "endColumn": 37,
+                        "endOffset": 12863
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 12868,
+                    "endColumn": 37,
+                    "endOffset": 12901
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 314,
+                        "startColumn": 4,
+                        "startOffset": 12868,
+                        "endColumn": 37,
+                        "endOffset": 12901
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 12906,
+                    "endColumn": 37,
+                    "endOffset": 12939
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 315,
+                        "startColumn": 4,
+                        "startOffset": 12906,
+                        "endColumn": 37,
+                        "endOffset": 12939
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 12944,
+                    "endColumn": 37,
+                    "endOffset": 12977
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 316,
+                        "startColumn": 4,
+                        "startOffset": 12944,
+                        "endColumn": 37,
+                        "endOffset": 12977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 12982,
+                    "endColumn": 49,
+                    "endOffset": 13027
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 317,
+                        "startColumn": 4,
+                        "startOffset": 12982,
+                        "endColumn": 49,
+                        "endOffset": 13027
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 318,
+                    "startColumn": 4,
+                    "startOffset": 13032,
+                    "endColumn": 38,
+                    "endOffset": 13066
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 318,
+                        "startColumn": 4,
+                        "startOffset": 13032,
+                        "endColumn": 38,
+                        "endOffset": 13066
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 319,
+                    "startColumn": 4,
+                    "startOffset": 13071,
+                    "endColumn": 36,
+                    "endOffset": 13103
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 319,
+                        "startColumn": 4,
+                        "startOffset": 13071,
+                        "endColumn": 36,
+                        "endOffset": 13103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 13108,
+                    "endColumn": 36,
+                    "endOffset": 13140
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 320,
+                        "startColumn": 4,
+                        "startOffset": 13108,
+                        "endColumn": 36,
+                        "endOffset": 13140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 13145,
+                    "endColumn": 36,
+                    "endOffset": 13177
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 321,
+                        "startColumn": 4,
+                        "startOffset": 13145,
+                        "endColumn": 36,
+                        "endOffset": 13177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 322,
+                    "startColumn": 4,
+                    "startOffset": 13182,
+                    "endColumn": 51,
+                    "endOffset": 13229
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 322,
+                        "startColumn": 4,
+                        "startOffset": 13182,
+                        "endColumn": 51,
+                        "endOffset": 13229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 13234,
+                    "endColumn": 35,
+                    "endOffset": 13265
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 323,
+                        "startColumn": 4,
+                        "startOffset": 13234,
+                        "endColumn": 35,
+                        "endOffset": 13265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 13270,
+                    "endColumn": 35,
+                    "endOffset": 13301
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 324,
+                        "startColumn": 4,
+                        "startOffset": 13270,
+                        "endColumn": 35,
+                        "endOffset": 13301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 325,
+                    "startColumn": 4,
+                    "startOffset": 13306,
+                    "endColumn": 37,
+                    "endOffset": 13339
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 325,
+                        "startColumn": 4,
+                        "startOffset": 13306,
+                        "endColumn": 37,
+                        "endOffset": 13339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 13344,
+                    "endColumn": 40,
+                    "endOffset": 13380
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 326,
+                        "startColumn": 4,
+                        "startOffset": 13344,
+                        "endColumn": 40,
+                        "endOffset": 13380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 13385,
+                    "endColumn": 46,
+                    "endOffset": 13427
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 327,
+                        "startColumn": 4,
+                        "startOffset": 13385,
+                        "endColumn": 46,
+                        "endOffset": 13427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 328,
+                    "startColumn": 4,
+                    "startOffset": 13432,
+                    "endColumn": 40,
+                    "endOffset": 13468
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 328,
+                        "startColumn": 4,
+                        "startOffset": 13432,
+                        "endColumn": 40,
+                        "endOffset": 13468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 329,
+                    "startColumn": 4,
+                    "startOffset": 13473,
+                    "endColumn": 44,
+                    "endOffset": 13513
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 329,
+                        "startColumn": 4,
+                        "startOffset": 13473,
+                        "endColumn": 44,
+                        "endOffset": 13513
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 13518,
+                    "endColumn": 37,
+                    "endOffset": 13551
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 330,
+                        "startColumn": 4,
+                        "startOffset": 13518,
+                        "endColumn": 37,
+                        "endOffset": 13551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 331,
+                    "startColumn": 4,
+                    "startOffset": 13556,
+                    "endColumn": 36,
+                    "endOffset": 13588
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 331,
+                        "startColumn": 4,
+                        "startOffset": 13556,
+                        "endColumn": 36,
+                        "endOffset": 13588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 332,
+                    "startColumn": 4,
+                    "startOffset": 13593,
+                    "endColumn": 43,
+                    "endOffset": 13632
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 332,
+                        "startColumn": 4,
+                        "startOffset": 13593,
+                        "endColumn": 43,
+                        "endOffset": 13632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 333,
+                    "startColumn": 4,
+                    "startOffset": 13637,
+                    "endColumn": 36,
+                    "endOffset": 13669
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 333,
+                        "startColumn": 4,
+                        "startOffset": 13637,
+                        "endColumn": 36,
+                        "endOffset": 13669
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 334,
+                    "startColumn": 4,
+                    "startOffset": 13674,
+                    "endColumn": 37,
+                    "endOffset": 13707
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 334,
+                        "startColumn": 4,
+                        "startOffset": 13674,
+                        "endColumn": 37,
+                        "endOffset": 13707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 335,
+                    "startColumn": 4,
+                    "startOffset": 13712,
+                    "endColumn": 44,
+                    "endOffset": 13752
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 335,
+                        "startColumn": 4,
+                        "startOffset": 13712,
+                        "endColumn": 44,
+                        "endOffset": 13752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 336,
+                    "startColumn": 4,
+                    "startOffset": 13757,
+                    "endColumn": 35,
+                    "endOffset": 13788
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 336,
+                        "startColumn": 4,
+                        "startOffset": 13757,
+                        "endColumn": 35,
+                        "endOffset": 13788
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 337,
+                    "startColumn": 4,
+                    "startOffset": 13793,
+                    "endColumn": 46,
+                    "endOffset": 13835
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 337,
+                        "startColumn": 4,
+                        "startOffset": 13793,
+                        "endColumn": 46,
+                        "endOffset": 13835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 338,
+                    "startColumn": 4,
+                    "startOffset": 13840,
+                    "endColumn": 52,
+                    "endOffset": 13888
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 338,
+                        "startColumn": 4,
+                        "startOffset": 13840,
+                        "endColumn": 52,
+                        "endOffset": 13888
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 339,
+                    "startColumn": 4,
+                    "startOffset": 13893,
+                    "endColumn": 39,
+                    "endOffset": 13928
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 339,
+                        "startColumn": 4,
+                        "startOffset": 13893,
+                        "endColumn": 39,
+                        "endOffset": 13928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 340,
+                    "startColumn": 4,
+                    "startOffset": 13933,
+                    "endColumn": 61,
+                    "endOffset": 13990
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 340,
+                        "startColumn": 4,
+                        "startOffset": 13933,
+                        "endColumn": 61,
+                        "endOffset": 13990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 341,
+                    "startColumn": 4,
+                    "startOffset": 13995,
+                    "endColumn": 69,
+                    "endOffset": 14060
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 341,
+                        "startColumn": 4,
+                        "startOffset": 13995,
+                        "endColumn": 69,
+                        "endOffset": 14060
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 342,
+                    "startColumn": 4,
+                    "startOffset": 14065,
+                    "endColumn": 49,
+                    "endOffset": 14110
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 342,
+                        "startColumn": 4,
+                        "startOffset": 14065,
+                        "endColumn": 49,
+                        "endOffset": 14110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 343,
+                    "startColumn": 4,
+                    "startOffset": 14115,
+                    "endColumn": 47,
+                    "endOffset": 14158
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 343,
+                        "startColumn": 4,
+                        "startOffset": 14115,
+                        "endColumn": 47,
+                        "endOffset": 14158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 344,
+                    "startColumn": 4,
+                    "startOffset": 14163,
+                    "endColumn": 54,
+                    "endOffset": 14213
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 344,
+                        "startColumn": 4,
+                        "startOffset": 14163,
+                        "endColumn": 54,
+                        "endOffset": 14213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 345,
+                    "startColumn": 4,
+                    "startOffset": 14218,
+                    "endColumn": 56,
+                    "endOffset": 14270
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 345,
+                        "startColumn": 4,
+                        "startOffset": 14218,
+                        "endColumn": 56,
+                        "endOffset": 14270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 346,
+                    "startColumn": 4,
+                    "startOffset": 14275,
+                    "endColumn": 54,
+                    "endOffset": 14325
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 346,
+                        "startColumn": 4,
+                        "startOffset": 14275,
+                        "endColumn": 54,
+                        "endOffset": 14325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 347,
+                    "startColumn": 4,
+                    "startOffset": 14330,
+                    "endColumn": 51,
+                    "endOffset": 14377
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 347,
+                        "startColumn": 4,
+                        "startOffset": 14330,
+                        "endColumn": 51,
+                        "endOffset": 14377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 348,
+                    "startColumn": 4,
+                    "startOffset": 14382,
+                    "endColumn": 71,
+                    "endOffset": 14449
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 348,
+                        "startColumn": 4,
+                        "startOffset": 14382,
+                        "endColumn": 71,
+                        "endOffset": 14449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 349,
+                    "startColumn": 4,
+                    "startOffset": 14454,
+                    "endColumn": 74,
+                    "endOffset": 14524
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 349,
+                        "startColumn": 4,
+                        "startOffset": 14454,
+                        "endColumn": 74,
+                        "endOffset": 14524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 350,
+                    "startColumn": 4,
+                    "startOffset": 14529,
+                    "endColumn": 78,
+                    "endOffset": 14603
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 350,
+                        "startColumn": 4,
+                        "startOffset": 14529,
+                        "endColumn": 78,
+                        "endOffset": 14603
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 351,
+                    "startColumn": 4,
+                    "startOffset": 14608,
+                    "endColumn": 71,
+                    "endOffset": 14675
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 351,
+                        "startColumn": 4,
+                        "startOffset": 14608,
+                        "endColumn": 71,
+                        "endOffset": 14675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 352,
+                    "startColumn": 4,
+                    "startOffset": 14680,
+                    "endColumn": 71,
+                    "endOffset": 14747
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 352,
+                        "startColumn": 4,
+                        "startOffset": 14680,
+                        "endColumn": 71,
+                        "endOffset": 14747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 353,
+                    "startColumn": 4,
+                    "startOffset": 14752,
+                    "endColumn": 69,
+                    "endOffset": 14817
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 353,
+                        "startColumn": 4,
+                        "startOffset": 14752,
+                        "endColumn": 69,
+                        "endOffset": 14817
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 14822,
+                    "endColumn": 70,
+                    "endOffset": 14888
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 354,
+                        "startColumn": 4,
+                        "startOffset": 14822,
+                        "endColumn": 70,
+                        "endOffset": 14888
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 355,
+                    "startColumn": 4,
+                    "startOffset": 14893,
+                    "endColumn": 66,
+                    "endOffset": 14955
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 355,
+                        "startColumn": 4,
+                        "startOffset": 14893,
+                        "endColumn": 66,
+                        "endOffset": 14955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 14960,
+                    "endColumn": 73,
+                    "endOffset": 15029
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 356,
+                        "startColumn": 4,
+                        "startOffset": 14960,
+                        "endColumn": 73,
+                        "endOffset": 15029
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 357,
+                    "startColumn": 4,
+                    "startOffset": 15034,
+                    "endColumn": 68,
+                    "endOffset": 15098
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 357,
+                        "startColumn": 4,
+                        "startOffset": 15034,
+                        "endColumn": 68,
+                        "endOffset": 15098
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 358,
+                    "startColumn": 4,
+                    "startOffset": 15103,
+                    "endColumn": 62,
+                    "endOffset": 15161
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 358,
+                        "startColumn": 4,
+                        "startOffset": 15103,
+                        "endColumn": 62,
+                        "endOffset": 15161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 359,
+                    "startColumn": 4,
+                    "startOffset": 15166,
+                    "endColumn": 79,
+                    "endOffset": 15241
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 359,
+                        "startColumn": 4,
+                        "startOffset": 15166,
+                        "endColumn": 79,
+                        "endOffset": 15241
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 360,
+                    "startColumn": 4,
+                    "startOffset": 15246,
+                    "endColumn": 70,
+                    "endOffset": 15312
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 360,
+                        "startColumn": 4,
+                        "startOffset": 15246,
+                        "endColumn": 70,
+                        "endOffset": 15312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 361,
+                    "startColumn": 4,
+                    "startOffset": 15317,
+                    "endColumn": 70,
+                    "endOffset": 15383
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 361,
+                        "startColumn": 4,
+                        "startOffset": 15317,
+                        "endColumn": 70,
+                        "endOffset": 15383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 362,
+                    "startColumn": 4,
+                    "startOffset": 15388,
+                    "endColumn": 66,
+                    "endOffset": 15450
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 362,
+                        "startColumn": 4,
+                        "startOffset": 15388,
+                        "endColumn": 66,
+                        "endOffset": 15450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 363,
+                    "startColumn": 4,
+                    "startOffset": 15455,
+                    "endColumn": 68,
+                    "endOffset": 15519
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 363,
+                        "startColumn": 4,
+                        "startOffset": 15455,
+                        "endColumn": 68,
+                        "endOffset": 15519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 364,
+                    "startColumn": 4,
+                    "startOffset": 15524,
+                    "endColumn": 73,
+                    "endOffset": 15593
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 364,
+                        "startColumn": 4,
+                        "startOffset": 15524,
+                        "endColumn": 73,
+                        "endOffset": 15593
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 365,
+                    "startColumn": 4,
+                    "startOffset": 15598,
+                    "endColumn": 47,
+                    "endOffset": 15641
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 365,
+                        "startColumn": 4,
+                        "startOffset": 15598,
+                        "endColumn": 47,
+                        "endOffset": 15641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 366,
+                    "startColumn": 4,
+                    "startOffset": 15646,
+                    "endColumn": 60,
+                    "endOffset": 15702
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 366,
+                        "startColumn": 4,
+                        "startOffset": 15646,
+                        "endColumn": 60,
+                        "endOffset": 15702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 367,
+                    "startColumn": 4,
+                    "startOffset": 15707,
+                    "endColumn": 62,
+                    "endOffset": 15765
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 367,
+                        "startColumn": 4,
+                        "startOffset": 15707,
+                        "endColumn": 62,
+                        "endOffset": 15765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 368,
+                    "startColumn": 4,
+                    "startOffset": 15770,
+                    "endColumn": 43,
+                    "endOffset": 15809
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 368,
+                        "startColumn": 4,
+                        "startOffset": 15770,
+                        "endColumn": 43,
+                        "endOffset": 15809
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 369,
+                    "startColumn": 4,
+                    "startOffset": 15814,
+                    "endColumn": 80,
+                    "endOffset": 15890
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 369,
+                        "startColumn": 4,
+                        "startOffset": 15814,
+                        "endColumn": 80,
+                        "endOffset": 15890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 370,
+                    "startColumn": 4,
+                    "startOffset": 15895,
+                    "endColumn": 80,
+                    "endOffset": 15971
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 370,
+                        "startColumn": 4,
+                        "startOffset": 15895,
+                        "endColumn": 80,
+                        "endOffset": 15971
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 371,
+                    "startColumn": 4,
+                    "startOffset": 15976,
+                    "endColumn": 71,
+                    "endOffset": 16043
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 371,
+                        "startColumn": 4,
+                        "startOffset": 15976,
+                        "endColumn": 71,
+                        "endOffset": 16043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 372,
+                    "startColumn": 4,
+                    "startOffset": 16048,
+                    "endColumn": 88,
+                    "endOffset": 16132
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 372,
+                        "startColumn": 4,
+                        "startOffset": 16048,
+                        "endColumn": 88,
+                        "endOffset": 16132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 373,
+                    "startColumn": 4,
+                    "startOffset": 16137,
+                    "endColumn": 87,
+                    "endOffset": 16220
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 373,
+                        "startColumn": 4,
+                        "startOffset": 16137,
+                        "endColumn": 87,
+                        "endOffset": 16220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 374,
+                    "startColumn": 4,
+                    "startOffset": 16225,
+                    "endColumn": 77,
+                    "endOffset": 16298
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 374,
+                        "startColumn": 4,
+                        "startOffset": 16225,
+                        "endColumn": 77,
+                        "endOffset": 16298
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 375,
+                    "startColumn": 4,
+                    "startOffset": 16303,
+                    "endColumn": 80,
+                    "endOffset": 16379
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 375,
+                        "startColumn": 4,
+                        "startOffset": 16303,
+                        "endColumn": 80,
+                        "endOffset": 16379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 376,
+                    "startColumn": 4,
+                    "startOffset": 16384,
+                    "endColumn": 85,
+                    "endOffset": 16465
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 376,
+                        "startColumn": 4,
+                        "startOffset": 16384,
+                        "endColumn": 85,
+                        "endOffset": 16465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 377,
+                    "startColumn": 4,
+                    "startOffset": 16470,
+                    "endColumn": 60,
+                    "endOffset": 16526
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 377,
+                        "startColumn": 4,
+                        "startOffset": 16470,
+                        "endColumn": 60,
+                        "endOffset": 16526
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 378,
+                    "startColumn": 4,
+                    "startOffset": 16531,
+                    "endColumn": 53,
+                    "endOffset": 16580
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 378,
+                        "startColumn": 4,
+                        "startOffset": 16531,
+                        "endColumn": 53,
+                        "endOffset": 16580
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 379,
+                    "startColumn": 4,
+                    "startOffset": 16585,
+                    "endColumn": 51,
+                    "endOffset": 16632
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 379,
+                        "startColumn": 4,
+                        "startOffset": 16585,
+                        "endColumn": 51,
+                        "endOffset": 16632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 380,
+                    "startColumn": 4,
+                    "startOffset": 16637,
+                    "endColumn": 65,
+                    "endOffset": 16698
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 380,
+                        "startColumn": 4,
+                        "startOffset": 16637,
+                        "endColumn": 65,
+                        "endOffset": 16698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 381,
+                    "startColumn": 4,
+                    "startOffset": 16703,
+                    "endColumn": 64,
+                    "endOffset": 16763
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 381,
+                        "startColumn": 4,
+                        "startOffset": 16703,
+                        "endColumn": 64,
+                        "endOffset": 16763
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 382,
+                    "startColumn": 4,
+                    "startOffset": 16768,
+                    "endColumn": 59,
+                    "endOffset": 16823
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 382,
+                        "startColumn": 4,
+                        "startOffset": 16768,
+                        "endColumn": 59,
+                        "endOffset": 16823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 383,
+                    "startColumn": 4,
+                    "startOffset": 16828,
+                    "endColumn": 61,
+                    "endOffset": 16885
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 383,
+                        "startColumn": 4,
+                        "startOffset": 16828,
+                        "endColumn": 61,
+                        "endOffset": 16885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 384,
+                    "startColumn": 4,
+                    "startOffset": 16890,
+                    "endColumn": 54,
+                    "endOffset": 16940
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 384,
+                        "startColumn": 4,
+                        "startOffset": 16890,
+                        "endColumn": 54,
+                        "endOffset": 16940
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 385,
+                    "startColumn": 4,
+                    "startOffset": 16945,
+                    "endColumn": 44,
+                    "endOffset": 16985
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 385,
+                        "startColumn": 4,
+                        "startOffset": 16945,
+                        "endColumn": 44,
+                        "endOffset": 16985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 386,
+                    "startColumn": 4,
+                    "startOffset": 16990,
+                    "endColumn": 48,
+                    "endOffset": 17034
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 386,
+                        "startColumn": 4,
+                        "startOffset": 16990,
+                        "endColumn": 48,
+                        "endOffset": 17034
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 387,
+                    "startColumn": 4,
+                    "startOffset": 17039,
+                    "endColumn": 60,
+                    "endOffset": 17095
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 387,
+                        "startColumn": 4,
+                        "startOffset": 17039,
+                        "endColumn": 60,
+                        "endOffset": 17095
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 388,
+                    "startColumn": 4,
+                    "startOffset": 17100,
+                    "endColumn": 57,
+                    "endOffset": 17153
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 388,
+                        "startColumn": 4,
+                        "startOffset": 17100,
+                        "endColumn": 57,
+                        "endOffset": 17153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 389,
+                    "startColumn": 4,
+                    "startOffset": 17158,
+                    "endColumn": 57,
+                    "endOffset": 17211
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 389,
+                        "startColumn": 4,
+                        "startOffset": 17158,
+                        "endColumn": 57,
+                        "endOffset": 17211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 390,
+                    "startColumn": 4,
+                    "startOffset": 17216,
+                    "endColumn": 60,
+                    "endOffset": 17272
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 390,
+                        "startColumn": 4,
+                        "startOffset": 17216,
+                        "endColumn": 60,
+                        "endOffset": 17272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 391,
+                    "startColumn": 4,
+                    "startOffset": 17277,
+                    "endColumn": 61,
+                    "endOffset": 17334
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 391,
+                        "startColumn": 4,
+                        "startOffset": 17277,
+                        "endColumn": 61,
+                        "endOffset": 17334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 392,
+                    "startColumn": 4,
+                    "startOffset": 17339,
+                    "endColumn": 57,
+                    "endOffset": 17392
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 392,
+                        "startColumn": 4,
+                        "startOffset": 17339,
+                        "endColumn": 57,
+                        "endOffset": 17392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 393,
+                    "startColumn": 4,
+                    "startOffset": 17397,
+                    "endColumn": 60,
+                    "endOffset": 17453
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 393,
+                        "startColumn": 4,
+                        "startOffset": 17397,
+                        "endColumn": 60,
+                        "endOffset": 17453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 394,
+                    "startColumn": 4,
+                    "startOffset": 17458,
+                    "endColumn": 57,
+                    "endOffset": 17511
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 394,
+                        "startColumn": 4,
+                        "startOffset": 17458,
+                        "endColumn": 57,
+                        "endOffset": 17511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 395,
+                    "startColumn": 4,
+                    "startOffset": 17516,
+                    "endColumn": 38,
+                    "endOffset": 17550
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 395,
+                        "startColumn": 4,
+                        "startOffset": 17516,
+                        "endColumn": 38,
+                        "endOffset": 17550
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 396,
+                    "startColumn": 4,
+                    "startOffset": 17555,
+                    "endColumn": 51,
+                    "endOffset": 17602
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 396,
+                        "startColumn": 4,
+                        "startOffset": 17555,
+                        "endColumn": 51,
+                        "endOffset": 17602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 397,
+                    "startColumn": 4,
+                    "startOffset": 17607,
+                    "endColumn": 58,
+                    "endOffset": 17661
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 397,
+                        "startColumn": 4,
+                        "startOffset": 17607,
+                        "endColumn": 58,
+                        "endOffset": 17661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 398,
+                    "startColumn": 4,
+                    "startOffset": 17666,
+                    "endColumn": 51,
+                    "endOffset": 17713
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 398,
+                        "startColumn": 4,
+                        "startOffset": 17666,
+                        "endColumn": 51,
+                        "endOffset": 17713
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 399,
+                    "startColumn": 4,
+                    "startOffset": 17718,
+                    "endColumn": 56,
+                    "endOffset": 17770
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 399,
+                        "startColumn": 4,
+                        "startOffset": 17718,
+                        "endColumn": 56,
+                        "endOffset": 17770
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 400,
+                    "startColumn": 4,
+                    "startOffset": 17775,
+                    "endColumn": 63,
+                    "endOffset": 17834
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 400,
+                        "startColumn": 4,
+                        "startOffset": 17775,
+                        "endColumn": 63,
+                        "endOffset": 17834
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 401,
+                    "startColumn": 4,
+                    "startOffset": 17839,
+                    "endColumn": 68,
+                    "endOffset": 17903
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 401,
+                        "startColumn": 4,
+                        "startOffset": 17839,
+                        "endColumn": 68,
+                        "endOffset": 17903
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 402,
+                    "startColumn": 4,
+                    "startOffset": 17908,
+                    "endColumn": 59,
+                    "endOffset": 17963
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 402,
+                        "startColumn": 4,
+                        "startOffset": 17908,
+                        "endColumn": 59,
+                        "endOffset": 17963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 403,
+                    "startColumn": 4,
+                    "startOffset": 17968,
+                    "endColumn": 57,
+                    "endOffset": 18021
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 403,
+                        "startColumn": 4,
+                        "startOffset": 17968,
+                        "endColumn": 57,
+                        "endOffset": 18021
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 404,
+                    "startColumn": 4,
+                    "startOffset": 18026,
+                    "endColumn": 57,
+                    "endOffset": 18079
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 404,
+                        "startColumn": 4,
+                        "startOffset": 18026,
+                        "endColumn": 57,
+                        "endOffset": 18079
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 405,
+                    "startColumn": 4,
+                    "startOffset": 18084,
+                    "endColumn": 58,
+                    "endOffset": 18138
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 405,
+                        "startColumn": 4,
+                        "startOffset": 18084,
+                        "endColumn": 58,
+                        "endOffset": 18138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 406,
+                    "startColumn": 4,
+                    "startOffset": 18143,
+                    "endColumn": 69,
+                    "endOffset": 18208
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 406,
+                        "startColumn": 4,
+                        "startOffset": 18143,
+                        "endColumn": 69,
+                        "endOffset": 18208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 407,
+                    "startColumn": 4,
+                    "startOffset": 18213,
+                    "endColumn": 59,
+                    "endOffset": 18268
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 407,
+                        "startColumn": 4,
+                        "startOffset": 18213,
+                        "endColumn": 59,
+                        "endOffset": 18268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 408,
+                    "startColumn": 4,
+                    "startOffset": 18273,
+                    "endColumn": 65,
+                    "endOffset": 18334
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 408,
+                        "startColumn": 4,
+                        "startOffset": 18273,
+                        "endColumn": 65,
+                        "endOffset": 18334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 409,
+                    "startColumn": 4,
+                    "startOffset": 18339,
+                    "endColumn": 74,
+                    "endOffset": 18409
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 409,
+                        "startColumn": 4,
+                        "startOffset": 18339,
+                        "endColumn": 74,
+                        "endOffset": 18409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 410,
+                    "startColumn": 4,
+                    "startOffset": 18414,
+                    "endColumn": 55,
+                    "endOffset": 18465
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 410,
+                        "startColumn": 4,
+                        "startOffset": 18414,
+                        "endColumn": 55,
+                        "endOffset": 18465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 411,
+                    "startColumn": 4,
+                    "startOffset": 18470,
+                    "endColumn": 66,
+                    "endOffset": 18532
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 411,
+                        "startColumn": 4,
+                        "startOffset": 18470,
+                        "endColumn": 66,
+                        "endOffset": 18532
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 412,
+                    "startColumn": 4,
+                    "startOffset": 18537,
+                    "endColumn": 77,
+                    "endOffset": 18610
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 412,
+                        "startColumn": 4,
+                        "startOffset": 18537,
+                        "endColumn": 77,
+                        "endOffset": 18610
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 413,
+                    "startColumn": 4,
+                    "startOffset": 18615,
+                    "endColumn": 64,
+                    "endOffset": 18675
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 413,
+                        "startColumn": 4,
+                        "startOffset": 18615,
+                        "endColumn": 64,
+                        "endOffset": 18675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 414,
+                    "startColumn": 4,
+                    "startOffset": 18680,
+                    "endColumn": 48,
+                    "endOffset": 18724
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 414,
+                        "startColumn": 4,
+                        "startOffset": 18680,
+                        "endColumn": 48,
+                        "endOffset": 18724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 415,
+                    "startColumn": 4,
+                    "startOffset": 18729,
+                    "endColumn": 47,
+                    "endOffset": 18772
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 415,
+                        "startColumn": 4,
+                        "startOffset": 18729,
+                        "endColumn": 47,
+                        "endOffset": 18772
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 416,
+                    "startColumn": 4,
+                    "startOffset": 18777,
+                    "endColumn": 50,
+                    "endOffset": 18823
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 416,
+                        "startColumn": 4,
+                        "startOffset": 18777,
+                        "endColumn": 50,
+                        "endOffset": 18823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 417,
+                    "startColumn": 4,
+                    "startOffset": 18828,
+                    "endColumn": 48,
+                    "endOffset": 18872
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 417,
+                        "startColumn": 4,
+                        "startOffset": 18828,
+                        "endColumn": 48,
+                        "endOffset": 18872
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 418,
+                    "startColumn": 4,
+                    "startOffset": 18877,
+                    "endColumn": 64,
+                    "endOffset": 18937
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 418,
+                        "startColumn": 4,
+                        "startOffset": 18877,
+                        "endColumn": 64,
+                        "endOffset": 18937
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 419,
+                    "startColumn": 4,
+                    "startOffset": 18942,
+                    "endColumn": 64,
+                    "endOffset": 19002
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 419,
+                        "startColumn": 4,
+                        "startOffset": 18942,
+                        "endColumn": 64,
+                        "endOffset": 19002
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 420,
+                    "startColumn": 4,
+                    "startOffset": 19007,
+                    "endColumn": 59,
+                    "endOffset": 19062
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 420,
+                        "startColumn": 4,
+                        "startOffset": 19007,
+                        "endColumn": 59,
+                        "endOffset": 19062
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 421,
+                    "startColumn": 4,
+                    "startOffset": 19067,
+                    "endColumn": 57,
+                    "endOffset": 19120
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 421,
+                        "startColumn": 4,
+                        "startOffset": 19067,
+                        "endColumn": 57,
+                        "endOffset": 19120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 422,
+                    "startColumn": 4,
+                    "startOffset": 19125,
+                    "endColumn": 61,
+                    "endOffset": 19182
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 422,
+                        "startColumn": 4,
+                        "startOffset": 19125,
+                        "endColumn": 61,
+                        "endOffset": 19182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 423,
+                    "startColumn": 4,
+                    "startOffset": 19187,
+                    "endColumn": 44,
+                    "endOffset": 19227
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 423,
+                        "startColumn": 4,
+                        "startOffset": 19187,
+                        "endColumn": 44,
+                        "endOffset": 19227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 424,
+                    "startColumn": 4,
+                    "startOffset": 19232,
+                    "endColumn": 75,
+                    "endOffset": 19303
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 424,
+                        "startColumn": 4,
+                        "startOffset": 19232,
+                        "endColumn": 75,
+                        "endOffset": 19303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 425,
+                    "startColumn": 4,
+                    "startOffset": 19308,
+                    "endColumn": 51,
+                    "endOffset": 19355
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 425,
+                        "startColumn": 4,
+                        "startOffset": 19308,
+                        "endColumn": 51,
+                        "endOffset": 19355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 426,
+                    "startColumn": 4,
+                    "startOffset": 19360,
+                    "endColumn": 60,
+                    "endOffset": 19416
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 426,
+                        "startColumn": 4,
+                        "startOffset": 19360,
+                        "endColumn": 60,
+                        "endOffset": 19416
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 427,
+                    "startColumn": 4,
+                    "startOffset": 19421,
+                    "endColumn": 60,
+                    "endOffset": 19477
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 427,
+                        "startColumn": 4,
+                        "startOffset": 19421,
+                        "endColumn": 60,
+                        "endOffset": 19477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 428,
+                    "startColumn": 4,
+                    "startOffset": 19482,
+                    "endColumn": 68,
+                    "endOffset": 19546
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 428,
+                        "startColumn": 4,
+                        "startOffset": 19482,
+                        "endColumn": 68,
+                        "endOffset": 19546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 429,
+                    "startColumn": 4,
+                    "startOffset": 19551,
+                    "endColumn": 63,
+                    "endOffset": 19610
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 429,
+                        "startColumn": 4,
+                        "startOffset": 19551,
+                        "endColumn": 63,
+                        "endOffset": 19610
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 430,
+                    "startColumn": 4,
+                    "startOffset": 19615,
+                    "endColumn": 64,
+                    "endOffset": 19675
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 430,
+                        "startColumn": 4,
+                        "startOffset": 19615,
+                        "endColumn": 64,
+                        "endOffset": 19675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 431,
+                    "startColumn": 4,
+                    "startOffset": 19680,
+                    "endColumn": 73,
+                    "endOffset": 19749
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 431,
+                        "startColumn": 4,
+                        "startOffset": 19680,
+                        "endColumn": 73,
+                        "endOffset": 19749
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 432,
+                    "startColumn": 4,
+                    "startOffset": 19754,
+                    "endColumn": 77,
+                    "endOffset": 19827
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 432,
+                        "startColumn": 4,
+                        "startOffset": 19754,
+                        "endColumn": 77,
+                        "endOffset": 19827
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 433,
+                    "startColumn": 4,
+                    "startOffset": 19832,
+                    "endColumn": 46,
+                    "endOffset": 19874
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 433,
+                        "startColumn": 4,
+                        "startOffset": 19832,
+                        "endColumn": 46,
+                        "endOffset": 19874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 434,
+                    "startColumn": 4,
+                    "startOffset": 19879,
+                    "endColumn": 49,
+                    "endOffset": 19924
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 434,
+                        "startColumn": 4,
+                        "startOffset": 19879,
+                        "endColumn": 49,
+                        "endOffset": 19924
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 435,
+                    "startColumn": 4,
+                    "startOffset": 19929,
+                    "endColumn": 58,
+                    "endOffset": 19983
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 435,
+                        "startColumn": 4,
+                        "startOffset": 19929,
+                        "endColumn": 58,
+                        "endOffset": 19983
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 436,
+                    "startColumn": 4,
+                    "startOffset": 19988,
+                    "endColumn": 53,
+                    "endOffset": 20037
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 436,
+                        "startColumn": 4,
+                        "startOffset": 19988,
+                        "endColumn": 53,
+                        "endOffset": 20037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 437,
+                    "startColumn": 4,
+                    "startOffset": 20042,
+                    "endColumn": 65,
+                    "endOffset": 20103
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 437,
+                        "startColumn": 4,
+                        "startOffset": 20042,
+                        "endColumn": 65,
+                        "endOffset": 20103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 438,
+                    "startColumn": 4,
+                    "startOffset": 20108,
+                    "endColumn": 59,
+                    "endOffset": 20163
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 438,
+                        "startColumn": 4,
+                        "startOffset": 20108,
+                        "endColumn": 59,
+                        "endOffset": 20163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 439,
+                    "startColumn": 4,
+                    "startOffset": 20168,
+                    "endColumn": 61,
+                    "endOffset": 20225
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 439,
+                        "startColumn": 4,
+                        "startOffset": 20168,
+                        "endColumn": 61,
+                        "endOffset": 20225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 440,
+                    "startColumn": 4,
+                    "startOffset": 20230,
+                    "endColumn": 50,
+                    "endOffset": 20276
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 440,
+                        "startColumn": 4,
+                        "startOffset": 20230,
+                        "endColumn": 50,
+                        "endOffset": 20276
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 441,
+                    "startColumn": 4,
+                    "startOffset": 20281,
+                    "endColumn": 50,
+                    "endOffset": 20327
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 441,
+                        "startColumn": 4,
+                        "startOffset": 20281,
+                        "endColumn": 50,
+                        "endOffset": 20327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 442,
+                    "startColumn": 4,
+                    "startOffset": 20332,
+                    "endColumn": 49,
+                    "endOffset": 20377
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 442,
+                        "startColumn": 4,
+                        "startOffset": 20332,
+                        "endColumn": 49,
+                        "endOffset": 20377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 443,
+                    "startColumn": 4,
+                    "startOffset": 20382,
+                    "endColumn": 62,
+                    "endOffset": 20440
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 443,
+                        "startColumn": 4,
+                        "startOffset": 20382,
+                        "endColumn": 62,
+                        "endOffset": 20440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 444,
+                    "startColumn": 4,
+                    "startOffset": 20445,
+                    "endColumn": 42,
+                    "endOffset": 20483
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 444,
+                        "startColumn": 4,
+                        "startOffset": 20445,
+                        "endColumn": 42,
+                        "endOffset": 20483
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 445,
+                    "startColumn": 4,
+                    "startOffset": 20488,
+                    "endColumn": 36,
+                    "endOffset": 20520
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 445,
+                        "startColumn": 4,
+                        "startOffset": 20488,
+                        "endColumn": 36,
+                        "endOffset": 20520
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 446,
+                    "startColumn": 4,
+                    "startOffset": 20525,
+                    "endColumn": 55,
+                    "endOffset": 20576
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 446,
+                        "startColumn": 4,
+                        "startOffset": 20525,
+                        "endColumn": 55,
+                        "endOffset": 20576
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 447,
+                    "startColumn": 4,
+                    "startOffset": 20581,
+                    "endLine": 455,
+                    "endColumn": 12,
+                    "endOffset": 21207
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 447,
+                        "startColumn": 4,
+                        "startOffset": 20581,
+                        "endLine": 455,
+                        "endColumn": 12,
+                        "endOffset": 21207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 456,
+                    "startColumn": 4,
+                    "startOffset": 21212,
+                    "endLine": 459,
+                    "endColumn": 12,
+                    "endOffset": 21429
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 456,
+                        "startColumn": 4,
+                        "startOffset": 21212,
+                        "endLine": 459,
+                        "endColumn": 12,
+                        "endOffset": 21429
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 460,
+                    "startColumn": 4,
+                    "startOffset": 21434,
+                    "endLine": 463,
+                    "endColumn": 12,
+                    "endOffset": 21637
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 460,
+                        "startColumn": 4,
+                        "startOffset": 21434,
+                        "endLine": 463,
+                        "endColumn": 12,
+                        "endOffset": 21637
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 464,
+                    "startColumn": 4,
+                    "startOffset": 21642,
+                    "endLine": 468,
+                    "endColumn": 12,
+                    "endOffset": 21905
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 464,
+                        "startColumn": 4,
+                        "startOffset": 21642,
+                        "endLine": 468,
+                        "endColumn": 12,
+                        "endOffset": 21905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 469,
+                    "startColumn": 4,
+                    "startOffset": 21910,
+                    "endLine": 477,
+                    "endColumn": 12,
+                    "endOffset": 22400
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 469,
+                        "startColumn": 4,
+                        "startOffset": 21910,
+                        "endLine": 477,
+                        "endColumn": 12,
+                        "endOffset": 22400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 478,
+                    "startColumn": 4,
+                    "startOffset": 22405,
+                    "endLine": 480,
+                    "endColumn": 12,
+                    "endOffset": 22483
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 478,
+                        "startColumn": 4,
+                        "startOffset": 22405,
+                        "endLine": 480,
+                        "endColumn": 12,
+                        "endOffset": 22483
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 481,
+                    "startColumn": 4,
+                    "startOffset": 22488,
+                    "endLine": 483,
+                    "endColumn": 12,
+                    "endOffset": 22565
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 481,
+                        "startColumn": 4,
+                        "startOffset": 22488,
+                        "endLine": 483,
+                        "endColumn": 12,
+                        "endOffset": 22565
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 484,
+                    "startColumn": 4,
+                    "startOffset": 22570,
+                    "endLine": 486,
+                    "endColumn": 12,
+                    "endOffset": 22743
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 484,
+                        "startColumn": 4,
+                        "startOffset": 22570,
+                        "endLine": 486,
+                        "endColumn": 12,
+                        "endOffset": 22743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 487,
+                    "startColumn": 4,
+                    "startOffset": 22748,
+                    "endLine": 489,
+                    "endColumn": 12,
+                    "endOffset": 22826
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 487,
+                        "startColumn": 4,
+                        "startOffset": 22748,
+                        "endLine": 489,
+                        "endColumn": 12,
+                        "endOffset": 22826
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 490,
+                    "startColumn": 4,
+                    "startOffset": 22831,
+                    "endLine": 494,
+                    "endColumn": 12,
+                    "endOffset": 23114
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 490,
+                        "startColumn": 4,
+                        "startOffset": 22831,
+                        "endLine": 494,
+                        "endColumn": 12,
+                        "endOffset": 23114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 495,
+                    "startColumn": 4,
+                    "startOffset": 23119,
+                    "endLine": 497,
+                    "endColumn": 12,
+                    "endOffset": 23196
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 495,
+                        "startColumn": 4,
+                        "startOffset": 23119,
+                        "endLine": 497,
+                        "endColumn": 12,
+                        "endOffset": 23196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 498,
+                    "startColumn": 4,
+                    "startOffset": 23201,
+                    "endLine": 505,
+                    "endColumn": 12,
+                    "endOffset": 23658
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 498,
+                        "startColumn": 4,
+                        "startOffset": 23201,
+                        "endLine": 505,
+                        "endColumn": 12,
+                        "endOffset": 23658
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 506,
+                    "startColumn": 4,
+                    "startOffset": 23663,
+                    "endLine": 508,
+                    "endColumn": 12,
+                    "endOffset": 23836
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 506,
+                        "startColumn": 4,
+                        "startOffset": 23663,
+                        "endLine": 508,
+                        "endColumn": 12,
+                        "endOffset": 23836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 509,
+                    "startColumn": 4,
+                    "startOffset": 23841,
+                    "endLine": 511,
+                    "endColumn": 12,
+                    "endOffset": 24013
+                },
+                "from": {
+                    "file": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 509,
+                        "startColumn": 4,
+                        "startOffset": 23841,
+                        "endLine": 511,
+                        "endColumn": 12,
+                        "endOffset": 24013
+                    }
+                }
+            }
+        ]
+    }
+]
