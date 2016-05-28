@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_jobdis_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+<TextView
+    android:id="@+id/tv_jobname_item"
+    android:layout_width="match_parent"
+    android:layout_height="30dip"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="10dip"
+    android:layout_marginRight="10dp"
+    android:text="掌上淮师代理"
+    android:textColor="@color/black"
+    android:textSize="22sp"
+    />
+   <TextView
+       android:id="@+id/tv_jobplace_item"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="16dp"
+       android:layout_marginRight="10dp"
+       android:text="淮安市淮阴区长江西路111号学生生活区8号楼下SGL网络科技 "
+       android:textSize="16sp"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_jobsalary_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="5000软妹币"
+            android:layout_marginRight="25dp"
+            android:textSize="21sp"
+            android:textColor="@color/red"
+            android:layout_toLeftOf="@+id/tv_time_partjob_item"
+
+            />
+        <TextView
+            android:id="@+id/tv_time_partjob_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:layout_marginRight="15dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

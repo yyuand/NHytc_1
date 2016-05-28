@@ -159,7 +159,9 @@ public class ShuoShuoDetailManager {
         query.findObjects(activity, new FindListener<ShuoShuoComment>() {
             @Override
             public void onSuccess(List<ShuoShuoComment> list) {
-                endTime = list.get(list.size() - 1).getCreatedAt();
+                if(list.size()!=0) {
+                    endTime = list.get(list.size() - 1).getCreatedAt();
+                }
                 adapter = new ShuocommentAdapter(activity, list);
                 listView.addHeaderView(view);
 
@@ -206,7 +208,9 @@ public class ShuoShuoDetailManager {
         query.findObjects(activity, new FindListener<ShuoShuoComment>() {
             @Override
             public void onSuccess(List<ShuoShuoComment> list) {
-                endTime = list.get(list.size() - 1).getCreatedAt();
+                if(list.size()!=0) {
+                    endTime = list.get(list.size() - 1).getCreatedAt();
+                }
                 adapter.onFresh(list);
                 abpull.onHeaderRefreshFinish();
             }
@@ -229,7 +233,9 @@ public class ShuoShuoDetailManager {
         query.findObjects(activity, new FindListener<ShuoShuoComment>() {
             @Override
             public void onSuccess(List<ShuoShuoComment> list) {
-                endTime = list.get(list.size() - 1).getCreatedAt();
+                if(list.size()!=0) {
+                    endTime = list.get(list.size() - 1).getCreatedAt();
+                }
                 adapter.onFresh(list);
                 listView.setSelection(list.size() - 1);
                 abpull.onFooterLoadFinish();

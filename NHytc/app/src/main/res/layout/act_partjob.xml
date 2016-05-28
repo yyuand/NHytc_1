@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <include layout="@layout/new_title_bar"/>
+            <!--上下拉动刷新-->
+            <com.ab.view.pullview.AbPullToRefreshView
+                android:id="@+id/abpull_partjob"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <!--设置数据-->
+                <ListView
+                    android:id="@+id/lv_partjob"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none"
+                    >
+                </ListView>
+            </com.ab.view.pullview.AbPullToRefreshView>
+
+        </LinearLayout>
+        <include layout="@layout/nothing"/>
+        <ProgressBar
+            android:id="@+id/wait_pro_partjob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+</LinearLayout>

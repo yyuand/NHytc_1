@@ -3,14 +3,11 @@ package com.hytc.nhytc.activity;
 import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.DatePickerDialog.OnDateSetListener;
-import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.app.TimePickerDialog;
-import android.content.ContentResolver;
 import android.content.Intent;
-import android.drm.ProcessedData;
+import android.net.Uri;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -24,20 +21,19 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.hytc.nhytc.R;
 import com.hytc.nhytc.domain.Activities;
 import com.hytc.nhytc.tool.BitmapHelper;
 import com.lidroid.xutils.BitmapUtils;
-import com.nostra13.universalimageloader.core.ImageLoader;
-
-import org.apache.http.impl.cookie.DateUtils;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 import butterknife.Bind;
@@ -78,7 +74,7 @@ public class ActivitiesPublishActivity extends Activity {
 
     private String picURL = "";
     private String picPath = "";
-    private String picName="";
+    private String picName = "";
     private static final int REQUEST_IMAGE = 2;
 
     private BitmapUtils bitmapUtils;
@@ -113,6 +109,11 @@ public class ActivitiesPublishActivity extends Activity {
     private String endTime;
     private List<String> list;
     private ArrayAdapter<String> themeAdapter;
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -120,6 +121,9 @@ public class ActivitiesPublishActivity extends Activity {
         setContentView(R.layout.act_new_activities_publish);
         ButterKnife.bind(this);
         inittitle();
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
     private void inittitle() {
@@ -131,8 +135,8 @@ public class ActivitiesPublishActivity extends Activity {
 
         bitmapUtils = BitmapHelper.getBitmapUtils(this);
 
-        calendar=Calendar.getInstance();
-        list=new ArrayList<String>();
+        calendar = Calendar.getInstance();
+        list = new ArrayList<String>();
 
         list.add("聚餐");
         list.add("出游");
@@ -143,20 +147,20 @@ public class ActivitiesPublishActivity extends Activity {
         list.add("学术报告");
         list.add("个人表演");
         list.add("其他");
-        themeAdapter=new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,list);
+        themeAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, list);
         themeAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spTheme.setAdapter(themeAdapter);
         spTheme.setVisibility(View.VISIBLE);
 
         progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("活动发布中 0% ...");
-        nowYear=calendar.get(Calendar.YEAR);
-        nowMonth=calendar.get(Calendar.MONTH);
-        nowDay=calendar.get(Calendar.DAY_OF_MONTH);
-        nowHour=calendar.get(Calendar.HOUR_OF_DAY);
-        nowMinute=calendar.get(Calendar.MINUTE);
-        int nowMonthTemp=nowMonth+1;
-        tvStarttime.setText(nowYear+"-"+nowMonthTemp+"-"+nowDay+" | "+nowHour+":"+nowMinute);
+        nowYear = calendar.get(Calendar.YEAR);
+        nowMonth = calendar.get(Calendar.MONTH);
+        nowDay = calendar.get(Calendar.DAY_OF_MONTH);
+        nowHour = calendar.get(Calendar.HOUR_OF_DAY);
+        nowMinute = calendar.get(Calendar.MINUTE);
+        int nowMonthTemp = nowMonth + 1;
+        tvStarttime.setText(nowYear + "-" + nowMonthTemp + "-" + nowDay + " | " + nowHour + ":" + nowMinute);
         titlename.setText("活动发布");
         ivinfo.setVisibility(View.GONE);
         tvinfo.setVisibility(View.VISIBLE);
@@ -183,7 +187,7 @@ public class ActivitiesPublishActivity extends Activity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 //Toast.makeText(ActivitiesPublishActivity.this, themeAdapter.getItem(position), Toast.LENGTH_SHORT).show();
-                themeSelected=themeAdapter.getItem(position);
+                themeSelected = themeAdapter.getItem(position);
                 themeCode = position;
             }
 
@@ -202,32 +206,31 @@ public class ActivitiesPublishActivity extends Activity {
             case R.id.tv_activities_publish_starttime:
                 //开始时间
                 startTime = "";
-                TimePickerDialog timePickerDialog=new TimePickerDialog(this, new TimePickerDialog.OnTimeSetListener() {
+                TimePickerDialog timePickerDialog = new TimePickerDialog(this, new TimePickerDialog.OnTimeSetListener() {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
-                        ActivitiesPublishActivity.this.startTimeHour=hourOfDay;
-                        ActivitiesPublishActivity.this.startTimeMinute=minute;
-                        if(ActivitiesPublishActivity.this.startTimeMinute==0){
-                            startTime=startTime+" | "+ ActivitiesPublishActivity.this.startTimeHour+":00";
-                        }
-                        else if(startTimeMinute > 0 && startTimeMinute < 10){
-                            startTime=startTime+" | "+ ActivitiesPublishActivity.this.startTimeHour+":0"+ ActivitiesPublishActivity.this.startTimeMinute;
-                        }else {
-                            startTime=startTime+" | "+ ActivitiesPublishActivity.this.startTimeHour+":"+ ActivitiesPublishActivity.this.startTimeMinute;
+                        ActivitiesPublishActivity.this.startTimeHour = hourOfDay;
+                        ActivitiesPublishActivity.this.startTimeMinute = minute;
+                        if (ActivitiesPublishActivity.this.startTimeMinute == 0) {
+                            startTime = startTime + " | " + ActivitiesPublishActivity.this.startTimeHour + ":00";
+                        } else if (startTimeMinute > 0 && startTimeMinute < 10) {
+                            startTime = startTime + " | " + ActivitiesPublishActivity.this.startTimeHour + ":0" + ActivitiesPublishActivity.this.startTimeMinute;
+                        } else {
+                            startTime = startTime + " | " + ActivitiesPublishActivity.this.startTimeHour + ":" + ActivitiesPublishActivity.this.startTimeMinute;
                         }
                         tvStarttime.setText(startTime);
                     }
-                },nowHour,nowMinute,true);
+                }, nowHour, nowMinute, true);
                 timePickerDialog.show();
 
-                DatePickerDialog dpd=new DatePickerDialog(this, new OnDateSetListener() {
+                DatePickerDialog dpd = new DatePickerDialog(this, new OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
-                        ActivitiesPublishActivity.this.startTimeYear=year;
-                        ActivitiesPublishActivity.this.startTimeMonth=monthOfYear;
-                        ActivitiesPublishActivity.this.startTimeDay=dayOfMonth;
-                        int monthTemp=monthOfYear+1;
-                        startTime=ActivitiesPublishActivity.this.startTimeYear+"-"+monthTemp+"-"+startTimeDay;
+                        ActivitiesPublishActivity.this.startTimeYear = year;
+                        ActivitiesPublishActivity.this.startTimeMonth = monthOfYear;
+                        ActivitiesPublishActivity.this.startTimeDay = dayOfMonth;
+                        int monthTemp = monthOfYear + 1;
+                        startTime = ActivitiesPublishActivity.this.startTimeYear + "-" + monthTemp + "-" + startTimeDay;
                     }
                 }, nowYear, nowMonth, nowDay);
 
@@ -236,32 +239,31 @@ public class ActivitiesPublishActivity extends Activity {
             case R.id.tv_activities_publish_endtime:
                 //结束时间
                 endTime = "";
-                TimePickerDialog timePickerDialog1=new TimePickerDialog(this, new TimePickerDialog.OnTimeSetListener() {
+                TimePickerDialog timePickerDialog1 = new TimePickerDialog(this, new TimePickerDialog.OnTimeSetListener() {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
-                        ActivitiesPublishActivity.this.endTimeHour=hourOfDay;
-                        ActivitiesPublishActivity.this.endTimeMinute=minute;
-                        if(minute==0){
-                            endTime=endTime+" | "+hourOfDay+":00";
-                        }
-                        else if(endTimeMinute>0 && endTimeMinute<10){
-                            endTime=endTime+" | "+ActivitiesPublishActivity.this.endTimeHour+":0"+ActivitiesPublishActivity.this.endTimeMinute;
-                        }else {
-                            endTime=endTime+" | "+hourOfDay+":"+minute;
+                        ActivitiesPublishActivity.this.endTimeHour = hourOfDay;
+                        ActivitiesPublishActivity.this.endTimeMinute = minute;
+                        if (minute == 0) {
+                            endTime = endTime + " | " + hourOfDay + ":00";
+                        } else if (endTimeMinute > 0 && endTimeMinute < 10) {
+                            endTime = endTime + " | " + ActivitiesPublishActivity.this.endTimeHour + ":0" + ActivitiesPublishActivity.this.endTimeMinute;
+                        } else {
+                            endTime = endTime + " | " + hourOfDay + ":" + minute;
                         }
                         tvEndtime.setText(endTime);
                     }
-                },ActivitiesPublishActivity.this.startTimeHour,ActivitiesPublishActivity.this.startTimeMinute,true);
+                }, ActivitiesPublishActivity.this.startTimeHour, ActivitiesPublishActivity.this.startTimeMinute, true);
                 timePickerDialog1.show();
 
-                DatePickerDialog dpd1=new DatePickerDialog(this, new OnDateSetListener() {
+                DatePickerDialog dpd1 = new DatePickerDialog(this, new OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
-                        ActivitiesPublishActivity.this.endTimeYear=year;
-                        ActivitiesPublishActivity.this.endTimeMonth=monthOfYear;
-                        ActivitiesPublishActivity.this.endTimeDay=dayOfMonth;
-                        int monthOfYearTemp=monthOfYear+1;
-                        endTime=year+"-"+monthOfYearTemp+"-"+dayOfMonth;
+                        ActivitiesPublishActivity.this.endTimeYear = year;
+                        ActivitiesPublishActivity.this.endTimeMonth = monthOfYear;
+                        ActivitiesPublishActivity.this.endTimeDay = dayOfMonth;
+                        int monthOfYearTemp = monthOfYear + 1;
+                        endTime = year + "-" + monthOfYearTemp + "-" + dayOfMonth;
                     }
                 }, ActivitiesPublishActivity.this.startTimeYear, ActivitiesPublishActivity.this.startTimeMonth, ActivitiesPublishActivity.this.startTimeDay);
                 dpd1.show();
@@ -285,15 +287,15 @@ public class ActivitiesPublishActivity extends Activity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == REQUEST_IMAGE){
-            if(resultCode == RESULT_OK){
+        if (requestCode == REQUEST_IMAGE) {
+            if (resultCode == RESULT_OK) {
                 picPath = data.getStringArrayListExtra(MultiImageSelectorActivity.EXTRA_RESULT).get(0);
                 bitmapUtils.display(ivPic, picPath);
             }
         }
     }
 
-    public void upLoadPic(String picPath){
+    public void upLoadPic(String picPath) {
         final BmobFile bmobFile = new BmobFile(new File(picPath));
 
         bmobFile.uploadblock(this, new UploadFileListener() {
@@ -304,7 +306,7 @@ public class ActivitiesPublishActivity extends Activity {
                 picURL = bmobFile.getFileUrl(ActivitiesPublishActivity.this);
                 picName = bmobFile.getFilename();//获取图片在服务器端的名字
                 Toast.makeText(ActivitiesPublishActivity.this, "上传文件成功:", Toast.LENGTH_SHORT).show();
-                parseData(picURL,picName);
+                parseData(picURL, picName);
             }
 
             @Override
@@ -329,79 +331,67 @@ public class ActivitiesPublishActivity extends Activity {
         });
     }
 
-    public Boolean isOk(){
+    public Boolean isOk() {
         Boolean result = true;
 
-        if("".equals(etName.getText().toString())){
+        if ("".equals(etName.getText().toString())) {
             result = false;
-            Toast.makeText(this,"活动名称不能为空",Toast.LENGTH_SHORT).show();
-        }else if("".equals(tvStarttime.getText().toString())){
+            Toast.makeText(this, "活动名称不能为空", Toast.LENGTH_SHORT).show();
+        } else if ("".equals(tvStarttime.getText().toString())) {
             result = false;
-            Toast.makeText(this,"开始时间还未选择",Toast.LENGTH_SHORT).show();
-        }else if("".equals(tvEndtime.getText().toString())){
+            Toast.makeText(this, "开始时间还未选择", Toast.LENGTH_SHORT).show();
+        } else if ("".equals(tvEndtime.getText().toString())) {
             result = false;
-            Toast.makeText(this,"结束时间还选择",Toast.LENGTH_SHORT).show();
-        }else if("".equals(etPlace.getText().toString())){
+            Toast.makeText(this, "结束时间还选择", Toast.LENGTH_SHORT).show();
+        } else if ("".equals(etPlace.getText().toString())) {
             result = false;
-            Toast.makeText(this,"活动地点不能为空",Toast.LENGTH_SHORT).show();
-        }else if("".equals(etContent.getText().toString())){
+            Toast.makeText(this, "活动地点不能为空", Toast.LENGTH_SHORT).show();
+        } else if ("".equals(etContent.getText().toString())) {
             result = false;
-            Toast.makeText(this,"活动内容不能为空",Toast.LENGTH_SHORT).show();
-        } else if("".equals(etHolder.getText().toString())){
+            Toast.makeText(this, "活动内容不能为空", Toast.LENGTH_SHORT).show();
+        } else if ("".equals(etHolder.getText().toString())) {
             result = false;
-            Toast.makeText(this,"活动举办者不能为空",Toast.LENGTH_SHORT).show();
-        }else if(!isTimeOK()){
+            Toast.makeText(this, "活动举办者不能为空", Toast.LENGTH_SHORT).show();
+        } else if (!isTimeOK()) {
             result = false;
-            Toast.makeText(this,"活动时间不合法\n请检查开始时间与结束时间的正确性",Toast.LENGTH_SHORT).show();
-        }else if("".equals(etConnect.getText().toString().trim())){
-            result=false;
-            Toast.makeText(this,"请填写联系方式",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "活动时间不合法\n请检查开始时间与结束时间的正确性", Toast.LENGTH_SHORT).show();
+        } else if ("".equals(etConnect.getText().toString().trim())) {
+            result = false;
+            Toast.makeText(this, "请填写联系方式", Toast.LENGTH_SHORT).show();
         }
         return result;
     }
 
-    public boolean isTimeOK(){
-        boolean result=true;
-        if(startTimeYear < nowYear || startTimeDay < nowDay || startTimeMonth < nowMonth)
-        {
-            result=false;
-        }
-        else if(endTimeYear < nowYear || endTimeDay < nowDay || endTimeMonth < nowMonth)
-        {
-            result=false;
-        }
-        else if(endTimeYear < startTimeYear)
-        {
-            result=false;
-        }
-        else if(endTimeMonth < startTimeMonth)
-        {
-            result=false;
-        }
-        else if(endTimeDay < startTimeDay)
-        {
-            result=false;
-        }
-        else if(endTimeHour < startTimeHour)
-        {
-            result=false;
-        }
-        else if(endTimeMinute < startTimeMinute)
-        {
-            result=false;
+    public boolean isTimeOK() {
+        boolean result = true;
+        if (startTimeYear < nowYear || startTimeDay < nowDay || startTimeMonth < nowMonth) {
+            result = false;
+        } else if (endTimeYear < nowYear || endTimeDay < nowDay || endTimeMonth < nowMonth) {
+            result = false;
+        } else if (endTimeYear < startTimeYear) {
+            result = false;
+        } else if (endTimeMonth < startTimeMonth) {
+            result = false;
+        } else if (endTimeDay < startTimeDay) {
+            result = false;
+        } else if (endTimeHour < startTimeHour) {
+            result = false;
+        } else if (endTimeMinute < startTimeMinute) {
+            result = false;
         }
         return result;
     }
 
     /**
      * 获取本地图片url
+     *
      * @return
      */
-    public String getStringpics(){
+    public String getStringpics() {
         String bmobpic = "";
-        if(Double.valueOf(UriToSize(picPath)) > Double.valueOf("200")) {
+        if (Double.valueOf(UriToSize(picPath)) > Double.valueOf("200")) {
             bmobpic = BitmapHelper.getImageThumbnail(picPath);
-        }else {
+        } else {
             bmobpic = picPath;
         }
         return bmobpic;
@@ -409,10 +399,11 @@ public class ActivitiesPublishActivity extends Activity {
 
     /**
      * 通过传入的 本地路径 获取 图片大小
+     *
      * @param s 图片的存储路径
      * @return KB MB
      */
-    public String UriToSize(String s){
+    public String UriToSize(String s) {
         File file = new File(s);
         long blockSize = 0;
         try {
@@ -425,19 +416,18 @@ public class ActivitiesPublishActivity extends Activity {
 
     /**
      * 获取指定文件大小
+     *
      * @param
      * @return
      * @throws Exception
      */
-    private static long getFileSize(File file) throws Exception
-    {
+    private static long getFileSize(File file) throws Exception {
         long size = 0;
-        if (file.exists()){
+        if (file.exists()) {
             FileInputStream fis = null;
             fis = new FileInputStream(file);
             size = fis.available();
-        }
-        else{
+        } else {
             file.createNewFile();
             Log.e("获取文件大小", "文件不存在!");
         }
@@ -446,15 +436,15 @@ public class ActivitiesPublishActivity extends Activity {
 
     /**
      * 转换文件大小
+     *
      * @param fileS
      * @return
      */
-    private static String FormetFileSize(long fileS)
-    {
+    private static String FormetFileSize(long fileS) {
         DecimalFormat df = new DecimalFormat("#.00");
         String fileSizeString = "";
-        String wrongSize="0";
-        if(fileS==0){
+        String wrongSize = "0";
+        if (fileS == 0) {
             return wrongSize;
         }
 
@@ -476,8 +466,8 @@ public class ActivitiesPublishActivity extends Activity {
         return fileSizeString;
     }
 
-    public void parseData(String s,String picName) {
-        Activities activities=new Activities();
+    public void parseData(String s, String picName) {
+        Activities activities = new Activities();
         activities.setName(etName.getText().toString().trim());
         activities.setContent(etContent.getText().toString().trim());
         activities.setStartTime(startTime.trim());
@@ -494,15 +484,55 @@ public class ActivitiesPublishActivity extends Activity {
             @Override
             public void onSuccess() {
                 progressDialog.dismiss();
-                Toast.makeText(ActivitiesPublishActivity.this,"活动发布成功！", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ActivitiesPublishActivity.this, "活动发布成功！", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onFailure(int i, String s) {
                 progressDialog.dismiss();
-                Toast.makeText(ActivitiesPublishActivity.this,"活动发布失败！",Toast.LENGTH_SHORT).show();
+                Toast.makeText(ActivitiesPublishActivity.this, "活动发布失败！", Toast.LENGTH_SHORT).show();
                 tvinfo.setClickable(true);
             }
         });
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.connect();
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "ActivitiesPublish Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app URL is correct.
+                Uri.parse("android-app://com.hytc.nhytc.activity/http/host/path")
+        );
+        AppIndex.AppIndexApi.start(client, viewAction);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "ActivitiesPublish Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app URL is correct.
+                Uri.parse("android-app://com.hytc.nhytc.activity/http/host/path")
+        );
+        AppIndex.AppIndexApi.end(client, viewAction);
+        client.disconnect();
     }
 }

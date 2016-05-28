@@ -58,8 +58,8 @@ import de.greenrobot.event.EventBus;
 
 public class MainActivity extends FragmentActivity implements View.OnClickListener{
 
-	private FrameLayout frameLayout;
-	private Fragment fragment;
+	private FrameLayout frameLayout;//帧布局
+	private Fragment fragment;//拆分activity的碎片
 
 	private long exitTime = 0;
 

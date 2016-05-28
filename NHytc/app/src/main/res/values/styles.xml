@@ -46,8 +46,18 @@
     </style>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">@color/title</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/title</item>
+        <item name="colorAccent">@color/title</item>
+        <item name="actionOverflowMenuStyle">@style/LYJMenuStyle</item>
     </style>
+
+    <style name="LYJMenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+
 
     <style name="StartDisCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
 

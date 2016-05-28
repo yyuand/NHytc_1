@@ -4,7 +4,9 @@ package com.hytc.nhytc.domain;
  * Created by Administrator on 2016/3/17.
  */
 public class ForResulltMsg {
+    //判断是否已赞
     private Boolean status;
+    //记录说说在listVies中的位置
     private Integer position;
     private String commentcount;
     private String approvecount;

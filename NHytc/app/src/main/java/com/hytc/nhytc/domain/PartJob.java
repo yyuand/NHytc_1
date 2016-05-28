@@ -22,6 +22,17 @@ public class PartJob extends BmobObject {
 	private String describe;
 	/**老板的联系方式**/
 	private String tel;
+	/**用于兼职排序的标记**/
+	private Double sort;
+
+	public Double getSort() {
+		return sort;
+	}
+
+	public void setSort(Double sort) {
+		this.sort = sort;
+	}
+
 
 	public User getBoss() {
 		return boss;
