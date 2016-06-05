@@ -61,13 +61,18 @@ public class ShowLoveMyManager {
         query.findObjects(activity, new FindListener<ShowLove>() {
             @Override
             public void onSuccess(List<ShowLove> list) {
-
-                starttime = list.get(0).getCreatedAt();
-                endtime = list.get(list.size()-1).getCreatedAt();
-                adapter = new ShowLoveMyActivityAdapter(activity,list);
-                probar.setVisibility(View.GONE);
-                listView.setAdapter(adapter);
-                listView.setDividerHeight(0);
+                if(list.size()!=0) {
+                    starttime = list.get(0).getCreatedAt();
+                    endtime = list.get(list.size() - 1).getCreatedAt();
+                    adapter = new ShowLoveMyActivityAdapter(activity, list);
+                    probar.setVisibility(View.GONE);
+                    listView.setAdapter(adapter);
+                    listView.setDividerHeight(0);
+                }
+                else{
+                    probar.setVisibility(View.GONE);
+                    activity.findViewById(R.id.nothing).setVisibility(View.VISIBLE);
+                }
             }
 
             @Override

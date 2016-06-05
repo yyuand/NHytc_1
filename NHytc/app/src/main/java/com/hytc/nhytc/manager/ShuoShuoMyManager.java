@@ -1,7 +1,6 @@
 package com.hytc.nhytc.manager;
 
 import android.app.Activity;
-import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.ProgressBar;
@@ -9,11 +8,9 @@ import android.widget.Toast;
 
 import com.ab.view.pullview.AbPullToRefreshView;
 import com.hytc.nhytc.R;
-import com.hytc.nhytc.adapter.ShuoShuoAdapter;
 import com.hytc.nhytc.adapter.ShuoShuoMyAdapter;
 import com.hytc.nhytc.dbDAO.ApproveShuoDBDao;
 import com.hytc.nhytc.domain.ForResulltMsg;
-import com.hytc.nhytc.domain.LostBack;
 import com.hytc.nhytc.domain.ShuoShuo;
 import com.hytc.nhytc.domain.User;
 
@@ -67,13 +64,19 @@ public class ShuoShuoMyManager {
         query.findObjects(activity, new FindListener<ShuoShuo>() {
             @Override
             public void onSuccess(List<ShuoShuo> list) {
-
-                starttime = list.get(0).getCreatedAt();
-                endtime = list.get(list.size()-1).getCreatedAt();
-                adapter = new ShuoShuoMyAdapter(activity,list);
-                probar.setVisibility(View.GONE);
-                listView.setAdapter(adapter);
-                listView.setDividerHeight(0);
+                if(list.size()!=0) {
+                    starttime = list.get(0).getCreatedAt();
+                    endtime = list.get(list.size() - 1).getCreatedAt();
+                    adapter = new ShuoShuoMyAdapter(activity, list);
+                    probar.setVisibility(View.GONE);
+                    listView.setAdapter(adapter);
+                    listView.setDividerHeight(0);
+                }
+                else
+                {
+                    probar.setVisibility(View.GONE);
+                    activity.findViewById(R.id.nothing).setVisibility(View.VISIBLE);
+                }
             }
 
             @Override

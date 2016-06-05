@@ -10,6 +10,9 @@ public class PartJob extends BmobObject {
 	private String job_Name;
 	/**发布兼职的老板**/
 	private User boss;
+
+	/**老板的个性签名**/
+	private String sign;
 	/**兼职的时间**/
 	private String time;
 	/**兼职的地点**/
@@ -41,6 +44,16 @@ public class PartJob extends BmobObject {
 	public void setBoss(User boss) {
 		this.boss = boss;
 	}
+
+
+	public String getSign() {
+		return sign;
+	}
+
+	public void setSign(String sign) {
+		this.sign = sign;
+	}
+
 
 	public String getJob_Name() {
 		return job_Name;

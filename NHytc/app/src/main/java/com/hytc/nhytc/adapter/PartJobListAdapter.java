@@ -1,6 +1,8 @@
 package com.hytc.nhytc.adapter;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.hytc.nhytc.R;
+import com.hytc.nhytc.activity.ActPartJobDetail;
 import com.hytc.nhytc.domain.PartJob;
 import com.hytc.nhytc.tool.ShowTimeTools;
 
@@ -59,7 +62,7 @@ public class PartJobListAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int i, View view, ViewGroup viewGroup) {
+    public View getView(final int i, View view, ViewGroup viewGroup) {
         ViewHolder viewHolder = null;//listview滚动的时候快速设置值，不必每次都重新创建很多对象
         if (view == null) {
             view = inflater.inflate(R.layout.act_partjob_item, null);
@@ -74,6 +77,18 @@ public class PartJobListAdapter extends BaseAdapter {
         viewHolder.tvJobsalaryItem.setText(items.get(i).getSalary());
         //getCreatedAt()获取创建的时间
         viewHolder.tvTimePartjobItem.setText(ShowTimeTools.getShowTime(items.get(i).getCreatedAt()));
+
+        viewHolder.llJobdisItem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activity,ActPartJobDetail.class);
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("data",items.get(i));
+                intent.putExtras(bundle);
+                activity.startActivity(intent);
+            }
+        });
+
         return view;
     }
 

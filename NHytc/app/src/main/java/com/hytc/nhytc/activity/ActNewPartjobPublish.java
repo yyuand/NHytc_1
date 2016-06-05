@@ -2,6 +2,7 @@ package com.hytc.nhytc.activity;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -11,12 +12,14 @@ import android.widget.Toast;
 
 import com.hytc.nhytc.R;
 import com.hytc.nhytc.domain.PartJob;
+import com.hytc.nhytc.domain.User;
 
 import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import cn.bmob.v3.BmobQuery;
+import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.SaveListener;
 
@@ -89,6 +92,7 @@ public class ActNewPartjobPublish extends Activity {
                     tvinfo.setClickable(false);
                     dialog.show();
                     getSort();
+                    //upLoadData(0.001);//第一次必须要传输一个数值到服务器，sort不能为空
                 }
             }
         });
@@ -169,11 +173,16 @@ public class ActNewPartjobPublish extends Activity {
         job.setDescribe(etPartjobDescribe.getText().toString());
         job.setTel(etPartjobTel.getText().toString());
         job.setSort(sort + 0.001);
+        job.setBoss(BmobUser.getCurrentUser(this, User.class));
         job.save(ActNewPartjobPublish.this, new SaveListener() {
             @Override
             public void onSuccess() {
                 dialog.dismiss();
                 tvinfo.setClickable(true);
+                Intent intent = new Intent();
+                intent.setClass(ActNewPartjobPublish.this,ActPartJob.class);
+                ActNewPartjobPublish.this.startActivity(intent);
+                ActNewPartjobPublish.this.finish();
                 Toast.makeText(ActNewPartjobPublish.this, "上传成功", Toast.LENGTH_SHORT).show();
             }
 

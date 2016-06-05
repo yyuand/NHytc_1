@@ -307,6 +307,19 @@
             android:screenOrientation="portrait">
         </activity>
 
+        <activity
+            android:name=".activity.ActPartJobDetail"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activity.ActMyPartJob"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
 
         <activity android:name=".tool.picture.MultiImageSelectorActivity"></activity>
 

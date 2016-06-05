@@ -7,7 +7,7 @@
     android:background="@color/white"
     android:orientation="vertical"
     >
-    <include layout="@layout/title_bar"/>
+    <include layout="@layout/new_title_bar"/>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -32,7 +32,7 @@
             android:layout_marginTop="6dp"
             >
             <com.hytc.nhytc.view.CircleImageView
-                android:id="@+id/iv_partjob_head"
+                android:id="@+id/iv_boss_head"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:scaleType="centerCrop"
@@ -46,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <TextView
-                    android:id="@+id/tv_jobname"
+                    android:id="@+id/tv_boss_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="test"
@@ -56,8 +56,9 @@
                     android:layout_marginLeft="10dip"
                     android:layout_marginRight="5dip"
                     />
+
                 <TextView
-                    android:id="@+id/tv_boss_shuo"
+                    android:id="@+id/tv_boss_sign"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="个性签名："
@@ -82,6 +83,7 @@
             android:orientation="vertical"
             >
             <TextView
+                android:id="@+id/tv_partjob_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="test"
@@ -117,8 +119,12 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             >
-            <TextView
+            <RelativeLayout
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_time_detail"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="时间："
                 android:textSize="16sp"
@@ -128,26 +134,75 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 />
-            <TextView
+                <TextView
+                    android:id="@+id/tv_time_detail1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="时间："
+                    android:textSize="16sp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/tv_time_detail"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="地点："
-                android:textSize="16sp"
-                android:singleLine="true"
-                android:textColor="@color/black"
-                android:layout_marginLeft="10dip"
-                android:layout_marginTop="10dip"
-                />
-            <TextView
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_place_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点："
+                    android:textSize="16sp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_place_detail1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="时间："
+                    android:textSize="16sp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/tv_place_detail"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="要求："
-                android:textSize="16sp"
-                android:singleLine="true"
-                android:textColor="@color/black"
-                android:layout_marginLeft="10dip"
-                android:layout_marginTop="10dip"
-                />
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_reqest_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="要求："
+                    android:textSize="16sp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_request_detail1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="时间："
+                    android:textSize="16sp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/tv_reqest_detail"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+            </RelativeLayout>
 
         </LinearLayout>
         <View
@@ -174,10 +229,11 @@
                 />
 
             <TextView
+                android:id="@+id/tv_jobdiscribe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="职位简职位简介职位简介职位简介职位简介职位简介职位简介职位简介职位简介介"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="35dp"
                 android:layout_marginTop="6dip"
                 android:layout_marginRight="10dip"
                 android:textSize="16sp"
@@ -198,7 +254,7 @@
             >
 
             <RelativeLayout
-                android:id="@+id/Rl_bo_shuo1"
+                android:id="@+id/Rl_ask_detail"
                 android:layout_width="0dip"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
@@ -214,10 +270,10 @@
                     >
 
                     <ImageView
-                        android:id="@+id/iv_shuoshuo1"
+                        android:id="@+id/iv_ask"
                         android:layout_width="21dip"
                         android:layout_height="21dip"
-                        android:src="@mipmap/iconfont1"
+                        android:src="@mipmap/iconfont3"
                         />
 
                     <TextView
@@ -230,8 +286,13 @@
                 </LinearLayout>
 
             </RelativeLayout>
+            <View
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="@color/ivory_background"
+                />
             <RelativeLayout
-                android:id="@+id/Rl_bo_shuo3"
+                android:id="@+id/Rl_tel_detail"
                 android:layout_width="0dip"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
@@ -247,17 +308,17 @@
                     >
 
                     <ImageView
-                        android:id="@+id/iv_shuoshuo3"
+                        android:id="@+id/iv_tel"
                         android:layout_width="21dip"
                         android:layout_height="21dip"
-                        android:src="@mipmap/iconfont3"
+                        android:src="@mipmap/iconfontphone"
                         />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="4dp"
-                        android:text="电话"
+                        android:text="电话联系"
                         />
 
                 </LinearLayout>

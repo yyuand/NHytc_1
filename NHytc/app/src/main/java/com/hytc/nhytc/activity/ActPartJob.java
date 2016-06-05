@@ -94,8 +94,8 @@ public class ActPartJob extends Activity {
      *
      */
     private void getData(){
-        if(isFirst){
-            waitProPartjob.setVisibility(View.VISIBLE);
+        if(isFirst){//是否第一次获取数据
+            waitProPartjob.setVisibility(View.VISIBLE);//显示缓冲的小圆圈
         }
         BmobQuery<PartJob> query = new BmobQuery<>();
         query.setLimit(15);//一次刷新显示15条数据
@@ -119,10 +119,9 @@ public class ActPartJob extends Activity {
                         Toast.makeText(ActPartJob.this,"已是最新内容咯~",Toast.LENGTH_SHORT).show();
                     }else{
                         jobName = list.get(0).getJob_Name();
+                        adapter.refreshData(list);
                     }
-                    adapter.refreshData(list);
                 }
-
             }
 
             @Override
