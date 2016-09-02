@@ -1,18 +1,50 @@
 [
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_ic_bubble_white.9.png",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_ic_bubble_white.9.png"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_ic_bubble_white.9.png",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_ic_bubble_white.9.png"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_ic_warning.png",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_ic_warning.png"
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_default_portrait.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_default_portrait.png"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_default_portrait.png",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_default_portrait.png"
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_ic_bubble_white.9.png",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_ic_bubble_white.9.png"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_group_default_portrait.png",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_group_default_portrait.png"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_default_portrait.png",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_default_portrait.png"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_default_portrait.png",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_default_portrait.png"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_group_default_portrait.png",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_group_default_portrait.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_group_default_portrait.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_group_default_portrait.png"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_group_default_portrait.png",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_group_default_portrait.png"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_ic_warning.png",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_ic_warning.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_ic_bubble_white.9.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_ic_bubble_white.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_ic_warning.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_ic_warning.png"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rc_ic_warning.png",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rc_ic_warning.png"
     }
 ]

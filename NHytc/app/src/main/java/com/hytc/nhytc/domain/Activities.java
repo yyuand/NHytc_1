@@ -29,6 +29,17 @@ public class Activities extends BmobObject {
     //联系方式
     private String connection;
 
+    public User getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(User author) {
+        this.author = author;
+    }
+
+    private User author;
+
+
     public String getPicName() {
         return picName;
     }

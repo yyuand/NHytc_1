@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.hytc.nhytc.R;
 import com.hytc.nhytc.activity.ActPartJob;
+import com.hytc.nhytc.activity.ActivitiesActivities;
 import com.hytc.nhytc.activity.LostActivity;
 import com.hytc.nhytc.activity.MainActivity;
 import com.hytc.nhytc.activity.MainCourseActivity;
@@ -83,6 +84,7 @@ public class Activityfragment extends Fragment {
         relativeLayout5 = (RelativeLayout) view.findViewById(R.id.rl_fregment_more5);
         relativeLayout6 = (RelativeLayout) view.findViewById(R.id.rl_fregment_more6);
         relativeLayout7 = (RelativeLayout) view.findViewById(R.id.rl_fregment_more7);
+        relativeLayout8 = (RelativeLayout) view.findViewById(R.id.rl_fregment_more8);
 
         relativeLayout1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -138,6 +140,14 @@ public class Activityfragment extends Fragment {
             public void onClick(View v) {
                 Intent intent = new Intent();
                 intent.setClass(getActivity(), ActPartJob.class);
+                getActivity().startActivity(intent);
+            }
+        });
+        relativeLayout8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(getActivity(), ActivitiesActivities.class);
                 getActivity().startActivity(intent);
             }
         });

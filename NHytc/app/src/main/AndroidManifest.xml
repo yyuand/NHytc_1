@@ -248,6 +248,30 @@
         </activity>
 
         <activity
+            android:name=".activity.ActivitiesPublishActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".activity.ActivitiesActivities"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+        <activity
+            android:name=".activity.ActivitiesMyActivities"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".activity.ActivitiesDetail"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
             android:name=".activity.SearchLostActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
@@ -291,12 +315,6 @@
 
         <activity
             android:name=".activity.ActRealName"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity
-            android:name=".activity.ActivitiesPublishActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
         </activity>

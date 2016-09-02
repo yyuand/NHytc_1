@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--发布一个新的活动-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/ivory_background"
     android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
     >
     <include layout="@layout/title_bar"/>
     <ScrollView
@@ -17,25 +18,17 @@
             android:paddingTop="5dp"
             >
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="4dip"/>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginRight="5dp"
                 android:layout_marginLeft="5dp">
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dip"
-                    android:background="@color/lightgrey"
-                    />
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:orientation="horizontal"
+                    android:layout_height="68dp"
+                    android:orientation="vertical"
                     android:background="@color/white"
                     android:gravity="center_vertical"
                     >
@@ -43,30 +36,26 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="活动名称 "
-                        android:textSize="16sp"
                         android:singleLine="true"
                         android:textColor="@color/blue_dark"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="8dp"
                         />
                     <EditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/et_activites_pubulish_name"
                         android:singleLine="true"
-                        android:background="@null"
                         android:maxLength="30"
-                        android:layout_marginRight="10dip"
+                        android:textSize="14sp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
                         />
                 </LinearLayout>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dip"
-                    android:background="@color/lightgrey"
-                    />
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:orientation="horizontal"
+                    android:layout_height="68dp"
+                    android:orientation="vertical"
                     android:background="@color/white"
                     android:gravity="center_vertical"
                     >
@@ -74,104 +63,104 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="活动主题 "
-                        android:textSize="16sp"
                         android:textColor="@color/blue_dark"
-                        android:layout_marginLeft="10dp"/>
+                        android:layout_marginLeft="8dp"/>
                     <Spinner
                         android:id="@+id/sp_activities_publish_theme"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp">
+                        android:layout_height="40dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp">
 
                     </Spinner>
                 </LinearLayout>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dip"
-                    android:background="@color/lightgrey"
-                    />
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:orientation="horizontal"
+                    android:layout_height="72dp"
+                    android:orientation="vertical"
                     android:background="@color/white"
-                    android:gravity="center_vertical"
+                    android:paddingTop="6dp"
                     >
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="活动时间 "
-                        android:textSize="16sp"
                         android:textColor="@color/blue_dark"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"/>
-                    <LinearLayout
+                        android:layout_marginLeft="6dp"/>
+                    <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginRight="10dp">
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:textSize="14sp"
-                            android:layout_weight="4"
-                            android:id="@+id/tv_activities_publish_starttime"
-                            android:hint="开始时间"
-                            android:gravity="center"
-                            android:background="@null"
-                            android:layout_marginTop="6dp"
-                            android:layout_marginBottom="6dp"
-                            />
-                        <TextView
-                            android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                        <RelativeLayout
+                            android:id="@+id/rl_activities_publish_starttime"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:textSize="14sp"
+                            android:paddingRight="10dp"
+                            android:gravity="center"
+                            android:background="@drawable/btn_my_activities_delete">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:id="@+id/tv_activities_publish_starttime"
+                                android:hint="开始时间"
+                                android:background="@null"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginLeft="10dp"
+                                />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
                             android:layout_weight="1"
                             android:text="—"
-                            android:gravity="center"/>
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:textSize="14sp"
-                            android:layout_weight="4"
-                            android:id="@+id/tv_activities_publish_endtime"
-                            android:hint="结束时间"
+                            android:layout_centerInParent="true"/>
+                        <RelativeLayout
+                            android:id="@+id/rl_activities_publish_endtime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
                             android:gravity="center"
-                            android:layout_marginTop="6dp"
-                            android:layout_marginBottom="6dp"
-                            android:background="@null"
-                            />
-                    </LinearLayout>
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/btn_my_activities_delete">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:id="@+id/tv_activities_publish_endtime"
+                                android:hint="结束时间"
+                                android:background="@null"
+                                />
+                        </RelativeLayout>
+                    </RelativeLayout>
                 </LinearLayout>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dip"
-                    android:background="@color/lightgrey"
-                    />
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:orientation="horizontal"
+                    android:layout_height="68dp"
+                    android:orientation="vertical"
                     android:background="@color/white"
                     android:gravity="center_vertical"
+                    android:paddingTop="6dp"
                     >
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="活动地点 "
-                        android:textSize="16sp"
-                        android:layout_gravity="center"
                         android:textColor="@color/blue_dark"
-                        android:layout_marginLeft="10dp"/>
+                        android:layout_marginLeft="8dp"/>
                     <EditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/et_activites_pubulish_place"
-                        android:singleLine="true"
-                        android:layout_marginTop="6dp"
-                        android:layout_marginBottom="6dp"
-                        android:background="@null"
-                        android:layout_marginRight="10dp"
+                        android:singleLine="false"
+                        android:maxLines="3"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp"
                         />
                 </LinearLayout>
             </LinearLayout>
@@ -179,7 +168,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dip"
                 android:layout_marginLeft="5dip"
                 android:layout_marginRight="5dip"
                 android:orientation="vertical"
@@ -187,148 +175,127 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:orientation="horizontal"
+                    android:layout_height="68dp"
+                    android:orientation="vertical"
                     android:background="@color/white"
                     android:gravity="center_vertical"
+                    android:paddingTop="6dp"
                     >
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="主办者(单位) "
-                        android:layout_marginLeft="10dp"
-                        android:textSize="16sp"
-                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
                         android:textColor="@color/blue_dark"/>
                     <EditText
-                        android:layout_marginRight="10dp"
+                        android:layout_marginRight="8dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/et_activites_pubulish_holder"
-                        android:singleLine="true"
-                        android:background="@null"
-                        android:layout_marginTop="6dp"
-                        android:layout_marginBottom="6dp"
+                        android:singleLine="false"
+                        android:maxLines="2"
+                        android:layout_marginLeft="8dp"
                         />
                 </LinearLayout>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dip"
-                    android:background="@color/lightgrey"
-                    />
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:orientation="horizontal"
+                    android:layout_height="68dp"
+                    android:orientation="vertical"
                     android:background="@color/white"
                     android:gravity="center_vertical"
+                    android:paddingTop="6dp"
                     >
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="联系方式 "
-                        android:layout_marginLeft="10dp"
-                        android:textSize="16sp"
-                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
                         android:textColor="@color/blue_dark"/>
                     <EditText
-                        android:layout_marginRight="10dp"
+                        android:layout_marginRight="8dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/et_activites_pubulish_connect"
                         android:singleLine="true"
-                        android:background="@null"
-                        android:layout_marginTop="6dp"
-                        android:layout_marginBottom="6dp"
+                        android:layout_marginLeft="8dp"
+                        android:hint="邮件或手机号码"
+                        android:textSize="14sp"
                         />
                 </LinearLayout>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dip"
-                    android:background="@color/lightgrey"
-                    />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="68dp"
                     android:orientation="vertical"
                     android:background="@color/white"
-                    android:gravity="center_vertical">
+                    android:gravity="center_vertical"
+                    android:paddingTop="6dp"
+                    >
                     <TextView
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="8dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="活动内容"
-                        android:textSize="16dp"
-                        android:paddingTop="10dp"
                         android:textColor="@color/blue_dark"
                         />
                     <EditText
-                        android:layout_marginRight="10dp"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/et_activites_pubulish_content"
-                        android:background="@null"
                         android:hint="请输入活动内容..."
                         android:layout_marginTop="6dp"
                         android:layout_marginBottom="6dp"
+                        android:textSize="14sp"
                         android:maxLength="1000"
                         />
                 </LinearLayout>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dip"
-                    android:background="@color/lightgrey"
-                    />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="68dp"
+                    android:paddingTop="6dp"
                     android:orientation="vertical"
                     android:layout_gravity="center_vertical"
                     android:background="@color/white">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="16dp"
                         android:text="更多(选填)"
-                        android:paddingTop="10dp"
                         android:textColor="@color/blue_dark"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="8dp"
                         />
                     <EditText
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:maxLength="1000"
+                        android:textSize="14sp"
                         android:id="@+id/et_activites_pubulish_more"
                         android:hint="例如活动奖励，男女要求，学院要求等..."
-                        android:layout_marginBottom="6dp"
-                        android:layout_marginTop="6dp"
-                        android:background="@null"
                         />
                 </LinearLayout>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dip"
-                    android:background="@color/lightgrey"
-                    />
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:minHeight="44dp"
                     android:background="@color/white"
                     android:gravity="center_vertical">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="上传一张宣传图"
-                        android:textSize="16dp"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="8dp"
                         android:textColor="@color/blue_dark"
                         android:layout_marginBottom="16dp"
                         android:layout_marginTop="16dp"/>
                     <Button
-                        android:layout_marginRight="10dp"
+                        android:layout_marginRight="6dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
@@ -340,18 +307,14 @@
                 </RelativeLayout>
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="10dp"/>
-
+                    android:layout_height="4dp"/>
                 <ImageView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:scaleType="centerCrop"
-                    android:id="@+id/iv_activities_publish_pic"/>
-
-
-
+                    android:scaleType="fitXY"
+                    android:id="@+id/iv_activities_publish_pic"
+                    android:adjustViewBounds="true"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
-

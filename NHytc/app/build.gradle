@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "23.0.0 rc2"
+    compileSdkVersion 24
+    buildToolsVersion '24.0.1'
 
     defaultConfig {
         applicationId "com.hytc.nhytc"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 22
         versionCode 3
         versionName "1.2"
@@ -24,7 +24,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
+    useLibrary 'org.apache.http.legacy'
 }
 
 

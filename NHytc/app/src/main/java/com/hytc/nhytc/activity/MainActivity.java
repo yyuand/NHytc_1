@@ -222,7 +222,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 		lv = (ListView) findViewById(R.id.lv);
 		lv.setAdapter(new ArrayAdapter<String>(MainActivity.this,
 				R.layout.item_text, new String[]{"我的说说", "我的表白",
-				"我的商品", "我发布的失物","我发布的兼职", "个人资料","与我相关",
+				"我的商品", "我发布的失物","我发布的兼职","我发布的活动", "个人资料","与我相关",
 				"修改密码", "检查更新", "注销退出"}));
 		lv.setOnItemClickListener(new OnItemClickListener() {
 			@Override
@@ -261,31 +261,36 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 						}else {
 							Toast.makeText(MainActivity.this,"请先去发布兼职哟~",Toast.LENGTH_SHORT).show();
 						}
-
 						break;
 					case 5:
 						Intent intent5 = new Intent();
-						intent5.setClass(MainActivity.this, PersonalDataActivity.class);
+						intent5.setClass(MainActivity.this, ActivitiesMyActivities.class);
 						MainActivity.this.startActivity(intent5);
 						dl.close();
 						break;
 					case 6:
 						Intent intent6 = new Intent();
-						intent6.setClass(MainActivity.this, MyInfoActivity.class);
+						intent6.setClass(MainActivity.this, PersonalDataActivity.class);
 						MainActivity.this.startActivity(intent6);
 						dl.close();
 						break;
 					case 7:
 						Intent intent7 = new Intent();
-						intent7.setClass(MainActivity.this, SetPasswordActivity.class);
+						intent7.setClass(MainActivity.this, MyInfoActivity.class);
 						MainActivity.this.startActivity(intent7);
 						dl.close();
 						break;
 					case 8:
-						BmobUpdateAgent.forceUpdate(MainActivity.this);
+						Intent intent8 = new Intent();
+						intent8.setClass(MainActivity.this, SetPasswordActivity.class);
+						MainActivity.this.startActivity(intent8);
 						dl.close();
 						break;
 					case 9:
+						BmobUpdateAgent.forceUpdate(MainActivity.this);
+						dl.close();
+						break;
+					case 10:
 						AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
 						builder.setMessage("亲，您确定要退出账号，回到登录界面么？");
 						builder.setPositiveButton("确定", new DialogInterface.OnClickListener() {

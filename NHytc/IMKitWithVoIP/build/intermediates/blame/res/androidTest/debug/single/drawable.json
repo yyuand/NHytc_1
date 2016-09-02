@@ -1,106 +1,314 @@
 [
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_voice.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_voice.xml"
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_answer_selector.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_answer_selector.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_refuse_selector.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_refuse_selector.xml"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_send.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_send.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_switch_btn.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_switch_btn.xml"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_preview_checkbox.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_preview_checkbox.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_smiley.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_smiley.xml"
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_keyboard.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_keyboard.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_item_list_selector.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_item_list_selector.xml"
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_sound_off_selector.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_sound_off_selector.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ed_public_service_search_selector.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ed_public_service_search_selector.xml"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_voice.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_voice.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_preview_checkbox.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_preview_checkbox.xml"
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_refuse_selector.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_refuse_selector.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_public_service_enter_selector.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_public_service_enter_selector.xml"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_smiley.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_smiley.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_photo_checkbox.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_photo_checkbox.xml"
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_preview_checkbox.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_preview_checkbox.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_bg_editinput.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_bg_editinput.xml"
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_photo_checkbox.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_photo_checkbox.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_sound_off_selector.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_sound_off_selector.xml"
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_finish_selector.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_finish_selector.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_finish_selector.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_finish_selector.xml"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ed_public_service_search_selector.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ed_public_service_search_selector.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_hands_free_selector.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_hands_free_selector.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_keyboard.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_keyboard.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_send.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_send.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_sound_off_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_sound_off_selector.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_bg_menu.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_bg_menu.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_answer_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_answer_selector.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_voice.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_voice.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_switch_btn.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_switch_btn.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_an_voice_sent.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_an_voice_sent.xml"
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_voice.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_voice.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_over_selector.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_over_selector.xml"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_bg_menu.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_bg_menu.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_answer_selector.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_answer_selector.xml"
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ed_public_service_search_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ed_public_service_search_selector.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_extend.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_extend.xml"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_public_service_enter_selector.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_public_service_enter_selector.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_item_top_list_selector.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_item_top_list_selector.xml"
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ed_public_service_search_selector.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ed_public_service_search_selector.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_an_voice_receive.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_an_voice_receive.xml"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_photo_checkbox.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_photo_checkbox.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_public_service_unfollow_selector.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_public_service_unfollow_selector.xml"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_refuse_selector.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_refuse_selector.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_input.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_input.xml"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_hands_free_selector.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_hands_free_selector.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_bg_item.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_bg_item.xml"
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_an_voice_sent.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_an_voice_sent.xml"
     },
     {
-        "merged": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_keyboard.xml",
-        "source": "E:\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_keyboard.xml"
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_finish_selector.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_finish_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_preview_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_preview_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_send.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_bg_editinput.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_bg_editinput.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_extend.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_extend.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_finish_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_finish_selector.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_input.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_bg_menu.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_bg_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_refuse_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_refuse_selector.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_an_voice_receive.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_an_voice_receive.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_item_list_selector.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_item_list_selector.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_keyboard.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_keyboard.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_voice.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_voice.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_public_service_unfollow_selector.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_public_service_unfollow_selector.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_input.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_input.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_switch_btn.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_switch_btn.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_extend.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_extend.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_bg_menu.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_bg_menu.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_an_voice_sent.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_an_voice_sent.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_smiley.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_smiley.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_send.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_send.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_item_top_list_selector.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_item_top_list_selector.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_sound_off_selector.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_sound_off_selector.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_over_selector.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_over_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_an_voice_receive.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_an_voice_receive.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_bg_editinput.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_bg_editinput.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_voice.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_voice.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_public_service_unfollow_selector.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_public_service_unfollow_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_an_voice_sent.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_an_voice_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_hands_free_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_hands_free_selector.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_bg_item.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_bg_item.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_over_selector.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_over_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_item_top_list_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_item_top_list_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_over_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_over_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_voice.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_voice.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_item_top_list_selector.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_item_top_list_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_photo_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_photo_checkbox.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_hands_free_selector.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_hands_free_selector.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_switch_btn.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_switch_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_bg_item.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_bg_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_public_service_unfollow_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_public_service_unfollow_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_smiley.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_smiley.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_answer_selector.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_answer_selector.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_extend.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_extend.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_public_service_enter_selector.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_public_service_enter_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_public_service_enter_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_public_service_enter_selector.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_bg_editinput.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_bg_editinput.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_item_list_selector.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_item_list_selector.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_bg_item.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_bg_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_item_list_selector.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_item_list_selector.xml"
+    },
+    {
+        "merged": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_voice.xml",
+        "source": "E:\\Androidworkspace\\SGL_HYTC\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_voice.xml"
+    },
+    {
+        "merged": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_an_voice_receive.xml",
+        "source": "E:\\SGL_HYTC_1\\SGL_HYTC_DYY_2016_6_5_21_14\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_an_voice_receive.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_input.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\SGL_HYTC\\NHytc\\IMKitWithVoIP\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_input.xml"
     }
 ]
