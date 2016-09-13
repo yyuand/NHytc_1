@@ -578,16 +578,16 @@ public class ActivitiesPublishActivity extends Activity {
     }
 
     public boolean isTimeOK(){
-        boolean result=false;
-        if(startTimeYear < nowYear){
+        boolean result=true;
+        if(startTimeYear > nowYear){
             //Toast.makeText(this,"1",Toast.LENGTH_SHORT).show();
             return false;
         }
-        if(startTimeMonth < nowMonth) {
+        if(startTimeMonth > nowMonth) {
             //Toast.makeText(this,"3",Toast.LENGTH_SHORT).show();
             return false;
         }
-        if(startTimeDay < nowDay) {
+        if(startTimeDay > nowDay) {
             //Toast.makeText(this,"4",Toast.LENGTH_SHORT).show();
             return false;
         }
